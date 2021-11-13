@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity" >
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="match_parent"
+        android:layout_height="138dp"
+        app:srcCompat="@drawable/cortina" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="2dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="33dp"
+            android:gravity="center_horizontal"
+            android:orientation="vertical"
+            android:text="Registrar Abono"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:text="Nombre cliente"
+            android:textSize="20sp" />
+
+        <EditText
+            android:id="@+id/editTextTextPersonName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:paddingLeft="10dp" />
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:paddingLeft="10dp"
+            android:text="Dirección"
+            android:textSize="20sp" />
+
+        <EditText
+            android:id="@+id/editTextDireccion"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPersonName|textEmailAddress"
+            android:paddingLeft="10dp" />
+
+        <TextView
+            android:id="@+id/textView5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:text="Precio total"
+            android:textSize="20sp" />
+
+        <EditText
+            android:id="@+id/editTextDireccion2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPersonName|textEmailAddress"
+            android:paddingLeft="10dp" />
+
+        <TextView
+            android:id="@+id/textView7"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:text="Saldo"
+            android:textSize="20sp" />
+
+        <EditText
+            android:id="@+id/editTextDireccion3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPersonName|textEmailAddress"
+            android:paddingLeft="10dp" />
+
+        <TextView
+            android:id="@+id/textView8"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:text="Valor abono"
+            android:textSize="20sp" />
+
+        <EditText
+            android:id="@+id/editTextDireccion4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPersonName|textEmailAddress"
+            android:paddingLeft="10dp" />
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="73dp"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/Button01"
+                android:layout_width="124dp"
+                android:layout_height="59dp"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="61dp"
+                android:backgroundTint="@color/black_700"
+                android:text="Guardar"></Button>
+
+            <Button
+                android:id="@+id/Button02"
+                android:layout_width="134dp"
+                android:layout_height="58dp"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="223dp"
+                android:backgroundTint="@color/design_default_color_error"
+                android:text="Cancelar"></Button>
+        </RelativeLayout>
+
+    </LinearLayout>
+</LinearLayout>
