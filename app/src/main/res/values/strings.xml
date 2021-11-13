@@ -1,3 +1,23 @@
 <resources>
     <string name="app_name">CortinApp</string>
+    <string name="text_fechaVenta">Fecha Venta</string>
+    <string name="hint_fechaVenta">Fecha Venta</string>
+    <string name="text_vendedor">Vendedor</string>
+    <string name="hint_Vendedor">Nombre Vendedor</string>
+    <string name="text_Cliente">Cliente</string>
+    <string name="hint_Cliente">Nombre Cliente</string>
+    <string name="text_Direccion">Dirección</string>
+    <string name="hint_Direccion">Dirección Cliente</string>
+    <string name="text_Telefono">Teléfono</string>
+    <string name="hint_Telefono">Teléfono Cliente</string>
+    <string name="text_Articulo">Articulo</string>
+    <string name="hint_Articulo">Descripción Articulo</string>
+    <string name="text_Cantidad">Cantidad</string>
+    <string name="hint_Cantidad">Catidad de Articulos</string>
+    <string name="text_ValUnitario">Valor Unitario</string>
+    <string name="hint_ValUnitario">Valor Unitario Producto</string>
+    <string name="text_ValTotal">Valor Total</string>
+    <string name="hint_ValTotal">Valor Total</string>
+    <string name="button_AgregarVenta">Agregar Venta</string>
+    <string name="button_TerminarVenta">Terminar Venta</string>
 </resources>
