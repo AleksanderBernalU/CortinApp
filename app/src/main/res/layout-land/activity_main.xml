@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:background="@color/white"
+    tools:context=".MainActivity">
+    <LinearLayout
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:gravity="center_vertical"
+            android:background="@color/white"
+            android:orientation="vertical">
+            <ImageView
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"
+                android:src="@drawable/cortina" />
+    </LinearLayout>
+    <LinearLayout
+            android:layout_width="0dp"
+            android:layout_weight="2"
+            android:layout_height="match_parent"
+            android:background="@drawable/corner_linear_land"
+            android:gravity="center_vertical"
+            android:orientation="vertical"
+        android:layout_marginTop="3dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16dp"
+            android:text="Usuario"
+            android:textColor="@color/white"
+            android:textSize="23sp" />
+
+        <EditText
+            android:id="@+id/edtUsername"
+            android:layout_width="match_parent"
+            android:backgroundTint="@color/white"
+            android:layout_height="48dp"
+            android:hint="email@domain.com"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:textColorHint="@color/white"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16dp"
+            android:text="Contraseña"
+            android:textColor="@color/white"
+            android:textSize="23sp" />
+
+        <EditText
+            android:id="@+id/edtPassword"
+            android:layout_width="match_parent"
+            android:backgroundTint="@color/white"
+            android:layout_height="48dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:hint="Contraseña"
+            android:textColorHint="@color/white"/>
+
+
+        <Button
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/white"
+            app:cornerRadius="40dp"
+            android:text="Iniciar Sesión"
+            android:textColor="@color/blue"
+            android:layout_marginTop="19dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"/>
+    </LinearLayout>
+
+
+
+
+</LinearLayout>
