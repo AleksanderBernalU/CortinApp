@@ -33,7 +33,7 @@
                 android:layout_marginTop="25dp"
                 android:gravity="center_horizontal"
                 android:orientation="vertical"
-                android:text="Registrar artículos"
+                android:text="@string/registro_articulo"
                 android:textSize="20sp"
                 android:textStyle="bold" />
             <TextView
