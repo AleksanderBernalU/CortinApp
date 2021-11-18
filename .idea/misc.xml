@@ -3,6 +3,13 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/Mayda/AndroidStudioProjects/CortinApp/app/src/main/res/drawable/corner_linearlayuot.xml" value="0.2125" />
+        <entry key="..\:/Users/Mayda/AndroidStudioProjects/CortinApp/app/src/main/res/layout-land/activity_main.xml" value="0.5" />
+        <entry key="..\:/Users/Mayda/AndroidStudioProjects/CortinApp/app/src/main/res/layout-sw480dp/activity_main.xml" value="0.14199029126213591" />
+        <entry key="..\:/Users/Mayda/AndroidStudioProjects/CortinApp/app/src/main/res/layout-sw480dp/activity_registrar_vendedor.xml" value="0.14199029126213591" />
+        <entry key="..\:/Users/Mayda/AndroidStudioProjects/CortinApp/app/src/main/res/layout-sw720dp/activity_main.xml" value="0.1" />
+        <entry key="..\:/Users/Mayda/AndroidStudioProjects/CortinApp/app/src/main/res/layout-sw720dp/activity_registrar_vendedor.xml" value="0.1" />
+        <entry key="..\:/Users/Mayda/AndroidStudioProjects/CortinApp/app/src/main/res/layout/activity_main.xml" value="0.15172101449275363" />
         <entry key="..\:/Users/Usuario/AndroidStudioProjects/CortinApp/app/src/main/res/layout-land/activity_main.xml" value="0.11822916666666666" />
         <entry key="..\:/Users/Usuario/AndroidStudioProjects/CortinApp/app/src/main/res/layout/activity_agregar_articulos.xml" value="0.25" />
         <entry key="..\:/Users/Usuario/AndroidStudioProjects/CortinApp/app/src/main/res/layout/activity_main.xml" value="0.3333333333333333" />

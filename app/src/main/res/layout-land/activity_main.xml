@@ -15,12 +15,13 @@
             android:gravity="center_vertical"
             android:background="@color/white"
             android:orientation="vertical">
-            <ImageView
-                android:layout_width="150dp"
-                android:layout_height="150dp"
-                android:layout_gravity="center"
-                android:layout_marginTop="20dp"
-                android:src="@drawable/cortina" />
+
+        <ImageView
+            android:layout_width="206dp"
+            android:layout_height="202dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:src="@drawable/cortina" />
     </LinearLayout>
     <LinearLayout
             android:layout_width="0dp"
