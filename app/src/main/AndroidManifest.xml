@@ -10,6 +10,23 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.CortinApp">
         <activity
+            android:name=".RegistrarArticulos"
+            android:exported="false" />
+        <activity
+            android:name=".RegistrarVendedor"
+            android:exported="false" />
+        <activity
+            android:name=".AgregarArticulos"
+            android:exported="false" />
+        <activity
+            android:name=".RegistroAbono"
+            android:exported="false" />
+        <activity
+            android:name=".RegistroVentas"
+            android:exported="false"
+            android:label="@string/registro_ventas"
+            android:theme="@style/Theme.CortinApp.NoActionBar" />
+        <activity
             android:name=".MainActivity"
             android:exported="true">
             <intent-filter>

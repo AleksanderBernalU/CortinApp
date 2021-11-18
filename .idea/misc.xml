@@ -3,11 +3,24 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
-        <entry key="..\:/Users/Mayda/AndroidStudioProjects/CortinApp/app/src/main/res/drawable/button_inicio.xml" value="0.2125" />
-        <entry key="..\:/Users/Mayda/AndroidStudioProjects/CortinApp/app/src/main/res/drawable/corner_linearlayuot.xml" value="0.2125" />
-        <entry key="..\:/Users/Mayda/AndroidStudioProjects/CortinApp/app/src/main/res/drawable/layout2.xml" value="0.2125" />
-        <entry key="..\:/Users/Mayda/AndroidStudioProjects/CortinApp/app/src/main/res/layout-land/activity_main.xml" value="0.23489583333333333" />
-        <entry key="..\:/Users/Mayda/AndroidStudioProjects/CortinApp/app/src/main/res/layout/activity_main.xml" value="0.33" />
+        <entry key="..\:/Users/Usuario/AndroidStudioProjects/CortinApp/app/src/main/res/layout-land/activity_main.xml" value="0.11822916666666666" />
+        <entry key="..\:/Users/Usuario/AndroidStudioProjects/CortinApp/app/src/main/res/layout/activity_agregar_articulos.xml" value="0.25" />
+        <entry key="..\:/Users/Usuario/AndroidStudioProjects/CortinApp/app/src/main/res/layout/activity_main.xml" value="0.3333333333333333" />
+        <entry key="..\:/Users/Usuario/AndroidStudioProjects/CortinApp/app/src/main/res/layout/activity_registrar_articulos.xml" value="0.25" />
+        <entry key="..\:/Users/Usuario/AndroidStudioProjects/CortinApp/app/src/main/res/layout/activity_registrar_vendedor.xml" value="0.33" />
+        <entry key="..\:/Users/Usuario/AndroidStudioProjects/CortinApp/app/src/main/res/layout/activity_registro_abono.xml" value="0.25" />
+        <entry key="..\:/Users/Usuario/AndroidStudioProjects/CortinApp/app/src/main/res/layout/activity_registro_ventas.xml" value="0.25" />
+        <entry key="..\:/Users/Usuario/AndroidStudioProjects/CortinApp/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.240625" />
+        <entry key="..\:/Users/Usuario/AndroidStudioProjects/CortinApp/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.240625" />
+        <entry key="..\:/Users/pedro.bernal/AndroidStudioProjects/CortinApp/app/src/main/res/drawable/corner_linear_land.xml" value="0.3828125" />
+        <entry key="..\:/Users/pedro.bernal/AndroidStudioProjects/CortinApp/app/src/main/res/drawable/corner_linearlayuot.xml" value="0.3828125" />
+        <entry key="..\:/Users/pedro.bernal/AndroidStudioProjects/CortinApp/app/src/main/res/layout-land/activity_main.xml" value="0.34010416666666665" />
+        <entry key="..\:/Users/pedro.bernal/AndroidStudioProjects/CortinApp/app/src/main/res/layout/activity_agregar_articulos.xml" value="0.35260416666666666" />
+        <entry key="..\:/Users/pedro.bernal/AndroidStudioProjects/CortinApp/app/src/main/res/layout/activity_main.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/pedro.bernal/AndroidStudioProjects/CortinApp/app/src/main/res/layout/activity_registrar_articulos.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/pedro.bernal/AndroidStudioProjects/CortinApp/app/src/main/res/layout/activity_registrar_vendedor.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/pedro.bernal/AndroidStudioProjects/CortinApp/app/src/main/res/layout/activity_registro_abono.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/pedro.bernal/AndroidStudioProjects/CortinApp/app/src/main/res/layout/activity_registro_ventas.xml" value="0.33" />
       </map>
     </option>
   </component>
