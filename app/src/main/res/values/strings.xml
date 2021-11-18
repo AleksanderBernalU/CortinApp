@@ -1,6 +1,7 @@
 <resources>
     <string name="app_name">CortinApp</string>
     <string name="registro_ventas">Sales Record</string>
+    <string name="registro_vendedor">Seller record</string>
     <string name="username">Username</string>
     <string name="password">Password</string>
     <string name="your_password">Your Password</string>
@@ -56,4 +57,12 @@
     <string name="text_Valorm2">Value (per square meter)</string>
     <string name="hint_Valorm2">Value per square meter</string>
     <string name="registro_articulo">Record Item</string>
+
+    <!--Abonos-->
+    <string name="registro_abono">Record Subscription</string>
+    <string name="saldo_actual">Current balance</string>
+    <string name="fecha_abono">Subscription Date</string>
+    <string name="valor_abono">Subscription Worth</string>
+    <string name="Cancelar">Cancel</string>
+    <string name="Guardar">Save</string>
 </resources>
