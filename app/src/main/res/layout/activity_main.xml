@@ -27,7 +27,7 @@
              android:layout_width="wrap_content"
              android:layout_height="wrap_content"
              android:layout_marginLeft="16dp"
-             android:text="Usuario"
+             android:text="@string/username"
              android:textColor="@color/white"
              android:textSize="25sp" />
 
@@ -41,35 +41,36 @@
             android:hint="email@domain.com"
             android:textColorHint="@color/white"/>
 
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Contraseña"
-            android:layout_marginLeft="16dp"
-            android:textColor="@color/white"
-            android:textSize="25sp" />
+         <TextView
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:layout_marginLeft="16dp"
+             android:text="@string/password"
+             android:textColor="@color/white"
+             android:textSize="25sp" />
 
-        <EditText
-            android:id="@+id/edtPassword"
-            android:layout_width="match_parent"
-            android:layout_height="48dp"
-            android:layout_marginLeft="16dp"
-            android:layout_marginRight="16dp"
-            android:backgroundTint="@color/white"
-            android:hint="Contraseña"
-            android:textColorHint="@color/white"/>
+         <EditText
+             android:id="@+id/edtPassword"
+             android:layout_width="match_parent"
+             android:layout_height="48dp"
+             android:layout_marginLeft="16dp"
+             android:layout_marginRight="16dp"
+             android:backgroundTint="@color/white"
+             android:hint="@string/your_password"
+             android:textColorHint="@color/white" />
 
          <Button
              android:id="@+id/btnLogin"
              android:layout_width="match_parent"
              android:layout_height="wrap_content"
-             android:backgroundTint="@color/white"
-             app:cornerRadius="40dp"
-             android:text="Iniciar Sesión"
-             android:textColor="@color/blue"
-             android:layout_marginTop="19dp"
              android:layout_marginLeft="16dp"
-             android:layout_marginRight="16dp"/>
+             android:layout_marginTop="19dp"
+             android:layout_marginRight="16dp"
+             android:backgroundTint="@color/white"
+             android:text="@string/login"
+             android:textColor="@color/blue"
+             android:textSize="20sp"
+             app:cornerRadius="40dp" />
      </LinearLayout>
 
 

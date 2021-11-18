@@ -1,0 +1,59 @@
+<resources>
+    <string name="app_name">CortinApp</string>
+    <string name="registro_ventas">RegistroVentas</string>
+    <string name="username">Usuario</string>
+    <string name="password">Contraseña</string>
+    <string name="your_password">Tú Contraseña</string>
+    <string name="login">Iniciar Sesión</string>
+    <string name="logo">CortinApp Logo</string>
+    <!-- Cliente -->
+    <string name="text_Cliente">Nombre Cliente</string>
+    <string name="hint_Cliente">Nombre Cliente</string>
+    <string name="text_CedulaCliente">Cédula Cliente</string>
+    <string name="hint_CedulaCliente">Número de Cédula</string>
+    <string name="text_Direccion">Dirección</string>
+    <string name="hint_Direccion">Dirección Cliente</string>
+    <string name="text_Telefono">Teléfono</string>
+    <string name="hint_Telefono">Teléfono Cliente</string>
+    <string name="text_Latitud">Latitud</string>
+    <string name="hint_Latitud">Coord. Latitud</string>
+    <string name="text_Longitud">Longitud</string>
+    <string name="hint_Longitud">Coord. Longitud</string>
+
+    <!-- Vendedor -->
+    <string name="text_CedulaVendedor">CedulaVendedor</string>
+    <string name="hint_CedulaVendedor">Cedula</string>
+    <string name="text_CorreoVendedor">Correo Electrónico</string>
+    <string name="hint_CorreoVendedor">email@correo.com</string>
+    <string name="text_ContVendedor">Contraseña</string>
+    <string name="hint_ContVendedor">Contraseña</string>
+
+    <!-- Ventas -->
+    <string name="text_CodigoVenta">Código de la Venta</string>
+    <string name="hint_CodigoVenta">Código Venta</string>
+    <string name="text_fechaVenta">Fecha Venta</string>
+    <string name="hint_fechaVenta">Fecha Venta</string>
+    <string name="text_vendedor">Vendedor</string>
+    <string name="hint_Vendedor">Nombre Vendedor</string>
+    <string name="button_AgregarVenta">Agregar Venta</string>
+    <string name="button_TerminarVenta">Terminar Venta</string>
+
+    <!-- Articulos -->
+    <string name="text_Articulo">Tipo de Cortina</string>
+    <string name="hint_Articulo">Descripción Tipo de Cortina</string>
+    <string name="text_Ancho">Ancho (m)</string>
+    <string name="hint_Ancho">Ancho en metros</string>
+    <string name="text_Alto">Alto (m)</string>
+    <string name="hint_Alto">Alto en metros</string>
+    <string name="text_AreaTotal">Area Total</string>
+    <string name="hint_AreaTotal">Calculo de Área Total</string>
+    <string name="text_Precio">Precio</string>
+    <string name="hint_Precio">Calculo del Precio</string>
+    <string name="text_CodigoArticulo">Código Articulo</string>
+    <string name="hint_CodigoArticulo">Código de la cortina</string>
+    <string name="text_ColorCortina">Color</string>
+    <string name="hint_ColorCortina">Color de la cortina</string>
+    <string name="text_Valorm2">Valor (por metro cuadrado)</string>
+    <string name="hint_Valorm2">Valor por metro cuadrado</string>
+    <string name="registro_articulo">Registrar Artículo</string>
+</resources>
