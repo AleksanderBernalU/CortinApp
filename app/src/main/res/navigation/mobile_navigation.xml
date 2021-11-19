@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.example.cortinapp.ui.home.HomeFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/nav_gallery"
+        android:name="com.example.cortinapp.ui.gallery.GalleryFragment"
+        android:label="@string/menu_gallery"
+        tools:layout="@layout/fragment_gallery" />
+
+    <fragment
+        android:id="@+id/nav_slideshow"
+        android:name="com.example.cortinapp.ui.slideshow.SlideshowFragment"
+        android:label="@string/menu_slideshow"
+        tools:layout="@layout/fragment_slideshow" />
+    <activity
+        android:id="@+id/registrarVendedor"
+        android:name="com.example.cortinapp.RegistrarVendedor"
+        android:label="RegistrarVendedor" />
+    <activity
+        android:id="@+id/registrarArticulos"
+        android:name="com.example.cortinapp.RegistrarArticulos"
+        android:label="RegistrarArticulos" />
+    <activity
+        android:id="@+id/registroVentas"
+        android:name="com.example.cortinapp.RegistroVentas"
+        android:label="RegistroVentas" />
+    <activity
+        android:id="@+id/registroAbono"
+        android:name="com.example.cortinapp.RegistroAbono"
+        android:label="RegistroAbono" />
+</navigation>

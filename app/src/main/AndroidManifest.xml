@@ -10,6 +10,11 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.CortinApp">
         <activity
+            android:name=".DrawerActivity"
+            android:exported="false"
+            android:label="@string/title_activity_drawer"
+            android:theme="@style/Theme.CortinApp.NoActionBar" />
+        <activity
             android:name=".RegistrarArticulos"
             android:exported="false" />
         <activity

@@ -65,4 +65,11 @@
     <string name="valor_abono">Valor Abono</string>
     <string name="Cancelar">Cancelar</string>
     <string name="Guardar">Guardar</string>
+
+    <!--Menu-->
+    <string name="menu_registrovendedor">Registrar vendedor</string>
+    <string name="menu_registroarticulo">Registrar artículo</string>
+    <string name="menu_registroventa">Registrar venta</string>
+    <string name="menu_registroabono">Registrar abono</string>
+
 </resources>
