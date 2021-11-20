@@ -23,3 +23,8 @@ local.properties
 .idea/misc.xml
 .idea/misc.xml
 .idea/gradle.xml
+.idea/misc.xml
+app/src/main/res/layout-sw480dp-land/activity_main.xml
+app/src/main/res/layout-sw480dp-land/activity_registrar_vendedor.xml
+app/src/main/res/layout-sw720dp-land/activity_registrar_vendedor.xml
+app/src/main/res/layout-sw720dp-land/activity_registrar_vendedor.xml
