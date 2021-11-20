@@ -3,6 +3,20 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/Asus/Desktop/otro/Dev/MinTic/Ciclo4/Dev/ProyectoEntregable/CortinApp/app/src/main/res/layout/activity_agregar_articulos.xml" value="0.13333333333333333" />
+        <entry key="..\:/Users/Asus/Desktop/otro/Dev/MinTic/Ciclo4/Dev/ProyectoEntregable/CortinApp/app/src/main/res/layout/activity_drawer.xml" value="0.259375" />
+        <entry key="..\:/Users/Asus/Desktop/otro/Dev/MinTic/Ciclo4/Dev/ProyectoEntregable/CortinApp/app/src/main/res/layout/activity_main.xml" value="0.13333333333333333" />
+        <entry key="..\:/Users/Asus/Desktop/otro/Dev/MinTic/Ciclo4/Dev/ProyectoEntregable/CortinApp/app/src/main/res/layout/activity_registrar_articulos.xml" value="0.2462962962962963" />
+        <entry key="..\:/Users/Asus/Desktop/otro/Dev/MinTic/Ciclo4/Dev/ProyectoEntregable/CortinApp/app/src/main/res/layout/activity_registro_abono.xml" value="0.2553846153846154" />
+        <entry key="..\:/Users/Asus/Desktop/otro/Dev/MinTic/Ciclo4/Dev/ProyectoEntregable/CortinApp/app/src/main/res/layout/activity_registro_ventas.xml" value="0.2553846153846154" />
+        <entry key="..\:/Users/Asus/Desktop/otro/Dev/MinTic/Ciclo4/Dev/ProyectoEntregable/CortinApp/app/src/main/res/layout/app_bar_drawer.xml" value="0.259375" />
+        <entry key="..\:/Users/Asus/Desktop/otro/Dev/MinTic/Ciclo4/Dev/ProyectoEntregable/CortinApp/app/src/main/res/layout/content_drawer.xml" value="0.259375" />
+        <entry key="..\:/Users/Asus/Desktop/otro/Dev/MinTic/Ciclo4/Dev/ProyectoEntregable/CortinApp/app/src/main/res/layout/fragment_gallery.xml" value="0.13333333333333333" />
+        <entry key="..\:/Users/Asus/Desktop/otro/Dev/MinTic/Ciclo4/Dev/ProyectoEntregable/CortinApp/app/src/main/res/layout/fragment_home.xml" value="0.13333333333333333" />
+        <entry key="..\:/Users/Asus/Desktop/otro/Dev/MinTic/Ciclo4/Dev/ProyectoEntregable/CortinApp/app/src/main/res/layout/fragment_slideshow.xml" value="0.13333333333333333" />
+        <entry key="..\:/Users/Asus/Desktop/otro/Dev/MinTic/Ciclo4/Dev/ProyectoEntregable/CortinApp/app/src/main/res/layout/nav_header_drawer.xml" value="0.13333333333333333" />
+        <entry key="..\:/Users/Asus/Desktop/otro/Dev/MinTic/Ciclo4/Dev/ProyectoEntregable/CortinApp/app/src/main/res/menu/activity_main_drawer.xml" value="0.259375" />
+        <entry key="..\:/Users/Asus/Desktop/otro/Dev/MinTic/Ciclo4/Dev/ProyectoEntregable/CortinApp/app/src/main/res/menu/drawer.xml" value="0.259375" />
         <entry key="..\:/Users/Mayda/AndroidStudioProjects/CortinApp/app/src/main/res/drawable/corner_linearlayuot.xml" value="0.2125" />
         <entry key="..\:/Users/Mayda/AndroidStudioProjects/CortinApp/app/src/main/res/layout-land/activity_main.xml" value="0.5" />
         <entry key="..\:/Users/Mayda/AndroidStudioProjects/CortinApp/app/src/main/res/layout-sw480dp/activity_main.xml" value="0.14199029126213591" />
