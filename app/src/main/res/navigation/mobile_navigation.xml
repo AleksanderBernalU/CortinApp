@@ -23,10 +23,6 @@
         android:label="@string/menu_slideshow"
         tools:layout="@layout/fragment_slideshow" />
     <activity
-        android:id="@+id/registrarVendedor"
-        android:name="com.example.cortinapp.RegistrarVendedor"
-        android:label="RegistrarVendedor" />
-    <activity
         android:id="@+id/registrarArticulos"
         android:name="com.example.cortinapp.RegistrarArticulos"
         android:label="RegistrarArticulos" />
@@ -38,4 +34,9 @@
         android:id="@+id/registroAbono"
         android:name="com.example.cortinapp.RegistroAbono"
         android:label="RegistroAbono" />
+    <fragment
+        android:id="@+id/nav_rvendedor"
+        android:name="com.example.cortinapp.RvendedorFragment"
+        android:label="fragment_rvendedor"
+        tools:layout="@layout/fragment_rvendedor" />
 </navigation>

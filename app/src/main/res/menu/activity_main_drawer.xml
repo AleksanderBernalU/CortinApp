@@ -20,7 +20,7 @@
             android:title="@string/menu_slideshow" />
         -->
         <item
-            android:id="@+id/registrarVendedor"
+            android:id="@+id/nav_rvendedor"
             android:icon="@drawable/ic_menu_slideshow"
             android:title="@string/menu_registrovendedor" />
         <item
