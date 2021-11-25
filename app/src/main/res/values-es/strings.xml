@@ -71,5 +71,6 @@
     <string name="menu_registroarticulo">Registrar artículo</string>
     <string name="menu_registroventa">Registrar venta</string>
     <string name="menu_registroabono">Registrar abono</string>
+    <string name="menu_listaVentas">Lista de Ventas</string>
 
 </resources>

@@ -29,7 +29,20 @@
         <entry key="..\:/Users/Mayda/AndroidStudioProjects/CortinApp/app/src/main/res/layout-sw720dp-land/activity_registro_abono.xml" value="0.2312883435582822" />
         <entry key="..\:/Users/Mayda/AndroidStudioProjects/CortinApp/app/src/main/res/layout-sw720dp/activity_main.xml" value="0.1" />
         <entry key="..\:/Users/Mayda/AndroidStudioProjects/CortinApp/app/src/main/res/layout-sw720dp/activity_registrar_vendedor.xml" value="0.18" />
+        <entry key="..\:/Users/Mayda/AndroidStudioProjects/CortinApp/app/src/main/res/layout/activity_drawer.xml" value="0.16203703703703703" />
         <entry key="..\:/Users/Mayda/AndroidStudioProjects/CortinApp/app/src/main/res/layout/activity_main.xml" value="0.15172101449275363" />
+        <entry key="..\:/Users/Mayda/AndroidStudioProjects/CortinApp/app/src/main/res/layout/app_bar_drawer.xml" value="0.17" />
+        <entry key="..\:/Users/Mayda/AndroidStudioProjects/CortinApp/app/src/main/res/layout/content_drawer.xml" value="0.1" />
+        <entry key="..\:/Users/Mayda/AndroidStudioProjects/CortinApp/app/src/main/res/layout/fragment_detail.xml" value="0.17453703703703705" />
+        <entry key="..\:/Users/Mayda/AndroidStudioProjects/CortinApp/app/src/main/res/layout/fragment_gallery.xml" value="0.13671875" />
+        <entry key="..\:/Users/Mayda/AndroidStudioProjects/CortinApp/app/src/main/res/layout/fragment_home.xml" value="0.13671875" />
+        <entry key="..\:/Users/Mayda/AndroidStudioProjects/CortinApp/app/src/main/res/layout/fragment_lista_ventas.xml" value="0.17453703703703705" />
+        <entry key="..\:/Users/Mayda/AndroidStudioProjects/CortinApp/app/src/main/res/layout/fragment_rvendedor.xml" value="0.13671875" />
+        <entry key="..\:/Users/Mayda/AndroidStudioProjects/CortinApp/app/src/main/res/layout/fragment_slideshow.xml" value="0.13671875" />
+        <entry key="..\:/Users/Mayda/AndroidStudioProjects/CortinApp/app/src/main/res/layout/nav_header_drawer.xml" value="0.21" />
+        <entry key="..\:/Users/Mayda/AndroidStudioProjects/CortinApp/app/src/main/res/layout/task_list_item.xml" value="0.17453703703703705" />
+        <entry key="..\:/Users/Mayda/AndroidStudioProjects/CortinApp/app/src/main/res/menu/activity_main_drawer.xml" value="0.33" />
+        <entry key="..\:/Users/Mayda/AndroidStudioProjects/CortinApp/app/src/main/res/menu/drawer.xml" value="0.17453703703703705" />
         <entry key="..\:/Users/Usuario/AndroidStudioProjects/CortinApp/app/src/main/res/layout-land/activity_main.xml" value="0.11822916666666666" />
         <entry key="..\:/Users/Usuario/AndroidStudioProjects/CortinApp/app/src/main/res/layout/activity_agregar_articulos.xml" value="0.25" />
         <entry key="..\:/Users/Usuario/AndroidStudioProjects/CortinApp/app/src/main/res/layout/activity_main.xml" value="0.3333333333333333" />

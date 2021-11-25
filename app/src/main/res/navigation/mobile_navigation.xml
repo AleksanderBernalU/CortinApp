@@ -21,5 +21,20 @@
         android:id="@+id/registroVentas"
         android:name="com.example.cortinapp.RegistroVentas"
         android:label="RegistroVentas" />
+    <fragment
+        android:id="@+id/nav_listaVentas"
+        android:name="com.example.cortinapp.FragmentListaVentas"
+        android:label="fragment_lista_ventas"
+        tools:layout="@layout/fragment_lista_ventas" >
+
+        <action
+            android:id="@+id/action_nav_listaVentas_to_nav_detail"
+            app:destination="@id/nav_detail" />
+    </fragment>
+    <fragment
+        android:id="@+id/nav_detail"
+        android:name="com.example.cortinapp.fragment_detail"
+        android:label="fragment_detail"
+        tools:layout="@layout/fragment_detail" />
 
 </navigation>

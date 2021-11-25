@@ -30,10 +30,14 @@
         <item
             android:id="@+id/registroVentas"
             android:icon="@drawable/ic_menu_slideshow"
-            android:title="@string/menu_registroventa" />
+            android:title= "@string/menu_registroventa" />
         <item
             android:id="@+id/registroAbono"
             android:icon="@drawable/ic_menu_slideshow"
             android:title="@string/menu_registroabono" />
+        <item
+            android:id="@+id/nav_listaVentas"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="@string/menu_listaVentas" />
     </group>
 </menu>
