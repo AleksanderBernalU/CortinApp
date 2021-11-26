@@ -45,15 +45,15 @@ class FragmentListaVentas : Fragment() {
             super.onViewCreated(view, savedInstanceState)
             val recyclerVentaList: RecyclerView = view.findViewById(R.id.recycleListaVenta)
             var datos: ArrayList<Task> = ArrayList()
-            datos.add(Task(1, "09:00", 300000))
-            datos.add(Task(2, "12:00", 450000))
-            datos.add(Task(3, "18:00", 1000000))
-            datos.add(Task(4, "18:00", 5070000))
+            datos.add(Task(1, "Pepito Perez"))
+            datos.add(Task(2, "Fulanito de tal"))
+            datos.add(Task(3, "Jonny Zee"))
+            datos.add(Task(4, "Armando Casas"))
             var taskAdapter = TaskAdapter(datos){
                 val datos = Bundle()
                 datos.putInt("Codigo", it.codigo)
-                datos.putString("Hora", it.time)
-                datos.putInt("Venta Total", it.precio)
+                datos.putString("Hora", it.Cliente)
+                /*datos.putInt("Venta Total", it.precio)*/
                 Navigation.findNavController(view).navigate(R.id.nav_detail, datos)
             }
             recyclerVentaList.setHasFixedSize(true)

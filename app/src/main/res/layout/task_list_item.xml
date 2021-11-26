@@ -35,14 +35,15 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Time"
-            android:textSize="13sp" />
+            android:textSize="20sp" />
 
+        <!--Comentarios
         <TextView
             android:id="@+id/textViewPrecio"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Precio"
             android:textSize="13sp" />
-
+        -->
     </LinearLayout>
 </LinearLayout>

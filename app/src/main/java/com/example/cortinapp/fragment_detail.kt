@@ -36,14 +36,14 @@ class fragment_detail : Fragment() {
     ): View? {
         val fragmento =inflater.inflate(R.layout.fragment_detail, container, false)
         var codigo = requireArguments().getString("codigo")
-        var hora = requireArguments().getString("hora")
-        var precio = requireArguments().getString("precio")
+        var hora = requireArguments().getString("Cliente")
+        /*var precio = requireArguments().getString("precio")*/
         val textViewCodigo: TextView = fragmento.findViewById(R.id.textViewCodigo)
         val textViewHora: TextView = fragmento.findViewById(R.id.textViewHora)
-        val textViewPrecio: TextView = fragmento.findViewById(R.id.textViewPrecio)
+        /*val textViewPrecio: TextView = fragmento.findViewById(R.id.textViewPrecio)*/
         textViewCodigo.text = codigo
         textViewHora.text = hora
-        textViewPrecio.text = precio
+        /*textViewPrecio.text = precio*/
         return fragmento
     }
 
