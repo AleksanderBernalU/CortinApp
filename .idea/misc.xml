@@ -3,6 +3,9 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Grupo11/CortinApp/app/src/main/res/layout/content_drawer.xml" value="0.20416666666666666" />
+        <entry key="..\:/Grupo11/CortinApp/app/src/main/res/layout/fragment_gallery.xml" value="0.20416666666666666" />
+        <entry key="..\:/Grupo11/CortinApp/app/src/main/res/layout/fragment_rvendedor.xml" value="0.20416666666666666" />
         <entry key="..\:/Users/Asus/Desktop/otro/Dev/MinTic/Ciclo4/Dev/ProyectoEntregable/CortinApp/app/src/main/res/layout/activity_agregar_articulos.xml" value="0.13333333333333333" />
         <entry key="..\:/Users/Asus/Desktop/otro/Dev/MinTic/Ciclo4/Dev/ProyectoEntregable/CortinApp/app/src/main/res/layout/activity_drawer.xml" value="0.259375" />
         <entry key="..\:/Users/Asus/Desktop/otro/Dev/MinTic/Ciclo4/Dev/ProyectoEntregable/CortinApp/app/src/main/res/layout/activity_main.xml" value="0.13333333333333333" />
