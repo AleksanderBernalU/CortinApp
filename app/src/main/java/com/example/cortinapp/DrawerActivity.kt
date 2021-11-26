@@ -38,7 +38,7 @@ class DrawerActivity : AppCompatActivity() {
         appBarConfiguration = AppBarConfiguration(
             setOf(
                 R.id.registrarVendedor, R.id.registrarArticulos,
-                R.id.registroVentas, R.id.registroAbono
+                R.id.registroVentas, R.id.registroAbono,R.id.nav_listaVentas
             ), drawerLayout
         )
         setupActionBarWithNavController(navController, appBarConfiguration)
