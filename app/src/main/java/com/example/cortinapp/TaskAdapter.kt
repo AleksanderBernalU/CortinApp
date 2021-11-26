@@ -20,10 +20,10 @@ class TaskAdapter(private val datos: ArrayList<Task>, private val clickListener 
         val task = datos[position]
         val textViewCodigo: TextView = holder.layout.findViewById(R.id.textViewCodigo)
         val textViewTime: TextView = holder.layout.findViewById(R.id.textViewTime)
-        val textViewPercio: TextView = holder.layout.findViewById(R.id.textViewPrecio)
-        textViewCodigo.text = task.codigo.toString()
-        textViewTime.text = task.time
-        textViewPercio.text = task.precio.toString()
+        /*val textViewPercio: TextView = holder.layout.findViewById(R.id.textViewPrecio)*/
+        textViewCodigo.text = "Cod: "+task.codigo.toString()
+        textViewTime.text = task.Cliente
+        /*textViewPercio.text = task.precio.toString()*/
         holder.layout.setOnClickListener{ clickListener(task)};
     }
 
