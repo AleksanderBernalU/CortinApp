@@ -19,10 +19,10 @@ class TaskAdapter(private val datos: ArrayList<Task>, private val clickListener 
     override fun onBindViewHolder(holder: TaskViewHolder, position: Int) {
         val task = datos[position]
         val textViewCodigo: TextView = holder.layout.findViewById(R.id.textViewCodigo)
-        val textViewTime: TextView = holder.layout.findViewById(R.id.textViewTime)
+        val textViewNombre: TextView = holder.layout.findViewById(R.id.textViewNombre)
         /*val textViewPercio: TextView = holder.layout.findViewById(R.id.textViewPrecio)*/
         textViewCodigo.text = "Cod: "+task.codigo.toString()
-        textViewTime.text = task.Cliente
+        textViewNombre.text = task.Cliente
         /*textViewPercio.text = task.precio.toString()*/
         holder.layout.setOnClickListener{ clickListener(task)};
     }
