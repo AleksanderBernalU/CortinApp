@@ -69,19 +69,19 @@ class fragment_detail : Fragment() {
         val textViewCuota: TextView = fragmento.findViewById(R.id.textViewCuota)
         val textViewSaldo: TextView = fragmento.findViewById(R.id.textViewSaldo)
 
-        textViewCodigo.text = "Cod: " + codigo
-        textViewFecha.text = "Fecha Venta: " + fecha
-        textViewVendedor.text = "Vendedor: " + vendedor
-        textViewCliente.text = "Cliente: " + cliente
-        textViewCedula.text = "Cedula: " + cedula
-        textViewDireccion.text = "Direccion: " + direccion
-        textViewLatitud.text = "Latitud: " + latitud
-        textViewLongitud.text = "Longitud: " + longitud
-        textViewIdCortina.text = "IdCortina: " + idCortina
-        textViewAncho.text = "Ancho: " + ancho
-        textViewAlto.text = "Alto: " + alto
-        textViewArea.text = "Area: " + area
-        textViewPrecio.text = "Precio: " + precio
+        textViewCodigo.text = codigo
+        textViewFecha.text = fecha
+        textViewVendedor.text = vendedor
+        textViewCliente.text = cliente
+        textViewCedula.text = cedula
+        textViewDireccion.text = direccion
+        textViewLatitud.text = latitud
+        textViewLongitud.text = longitud
+        textViewIdCortina.text = idCortina
+        textViewAncho.text = ancho
+        textViewAlto.text = alto
+        textViewArea.text = area
+        textViewPrecio.text = precio
         textViewCuota.text = "Cuota: " + cuota
         textViewSaldo.text = "Saldo: " + saldo
         return fragmento
