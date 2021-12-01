@@ -29,7 +29,7 @@
             android:title="@string/menu_registroarticulo" />
         <item
             android:id="@+id/registroVentas"
-            android:icon="@drawable/ic_menu_slideshow"
+            android:icon="@drawable/sale"
             android:title= "@string/menu_registroventa" />
         <item
             android:id="@+id/registroAbono"
