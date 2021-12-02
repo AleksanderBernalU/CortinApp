@@ -1,10 +1,10 @@
 package com.example.cortinapp.room_database
 import androidx.room.*
-import java.sql.Date
 
 
 @Entity
-data class Venta(
+data class Venta (
+
     @PrimaryKey(autoGenerate = true)
     val Id: Int,
     val FechaVenta: String,

@@ -64,7 +64,7 @@
                 android:textSize="34sp" />
 
             <EditText
-                android:id="@+id/edtClientName"
+                android:id="@+id/edtDateSale"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:ems="10"

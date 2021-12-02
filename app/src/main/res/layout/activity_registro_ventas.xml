@@ -149,7 +149,11 @@
                     android:textSize="18sp" />
 
                 <EditText
+<<<<<<< HEAD
                     android:id="@+id/edtDate"
+=======
+                    android:id="@+id/edtDateSale"
+>>>>>>> decdd31ef71e835052597bd8f7cf96b0352de776
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="5dp"
@@ -161,7 +165,7 @@
                     android:textSize="18sp" />
 
                 <EditText
-                    android:id="@+id/edtSellerName"
+                    android:id="@+id/edtSellerId"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="5dp"
@@ -221,7 +225,11 @@
                     android:textSize="18sp" />
 
                 <EditText
+<<<<<<< HEAD
                     android:id="@+id/ediLongitud"
+=======
+                    android:id="@+id/edtLongitude"
+>>>>>>> decdd31ef71e835052597bd8f7cf96b0352de776
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="5dp"
@@ -288,6 +296,7 @@
                     android:textStyle="bold" />
 
                 <TextView
+                    android:id="@+id/TxvPrice"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginLeft="5dp"
@@ -306,7 +315,7 @@
                 android:orientation="vertical">
 
                 <EditText
-                    android:id="@+id/edtSellerId"
+                    android:id="@+id/edtCourtainId"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="5dp"
@@ -381,5 +390,15 @@
             android:layout_height="wrap_content"
             android:backgroundTint="@color/design_default_color_error"
             android:text="@string/button_AgregarVenta"></Button>
+        <TextView
+            android:id="@+id/TxvPrueba"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="5dp"
+            android:text="Prueba"
+            android:textColor="#040404"
+            android:textSize="18dp"
+            android:textStyle="bold" />
     </LinearLayout>
 </LinearLayout>

@@ -168,7 +168,7 @@
                     android:textSize="35sp" />
 
                 <EditText
-                    android:id="@+id/edtClientName"
+                    android:id="@+id/edtDateSale"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="5dp"
@@ -180,7 +180,7 @@
                     android:textSize="35sp" />
 
                 <EditText
-                    android:id="@+id/edtSellerName"
+                    android:id="@+id/edtSellerId"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="5dp"
@@ -240,7 +240,7 @@
                     android:textSize="35sp" />
 
                 <EditText
-                    android:id="@+id/editTextTextPersonName8"
+                    android:id="@+id/edtLongitude"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="5dp"
@@ -326,7 +326,7 @@
                 android:orientation="vertical">
 
                 <EditText
-                    android:id="@+id/edtSellerId"
+                    android:id="@+id/edtCourtainId"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="5dp"

@@ -82,8 +82,8 @@ class fragment_detail : Fragment() {
         textViewAlto.text = alto
         textViewArea.text = area
         textViewPrecio.text = precio
-        textViewCuota.text = "Cuota: " + cuota
-        textViewSaldo.text = "Saldo: " + saldo
+        textViewCuota.text = cuota
+        textViewSaldo.text = saldo
         return fragmento
     }
 
