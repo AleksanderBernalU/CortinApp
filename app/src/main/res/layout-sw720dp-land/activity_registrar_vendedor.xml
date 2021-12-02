@@ -151,7 +151,7 @@
             android:orientation="vertical">
 
             <Button
-                android:id="@+id/btnRegArt"
+                android:id="@+id/btnRegVenta"
                 android:layout_width="match_parent"
                 android:layout_height="60dp"
                 android:layout_margin="10dp"
