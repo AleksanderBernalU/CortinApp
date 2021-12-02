@@ -1,6 +1,19 @@
 package com.example.cortinapp
 
-data class Task (val codigo: Int, val fechaVenta: String, val Vendedor: String, val Cliente: String,
-                 val Cedula: String, val Direccion: String, val Latitud: Int, val Longitud: Int,
-                 val idCortina: Int, val ancho: Int, val Alto: Int, val Area: Int, val Precio: Int,
-                 val Cuota: Int, val Saldo: Int)
+data class Task (val Id: Int,
+                 val fechaVenta: String,
+                 val Vendedor: String,
+                 val Cedula: String,
+                 val Cliente: String,
+                 val Direccion: String,
+                 val Latitud: String,
+                 val Longitud: String,
+                 val idCortina: String,
+                 val ancho: String,
+                 val Alto: String,
+                 val Area: String,
+                 val Precio: String,
+                 val Cuota: String,
+                 val Saldo: String)
+
+
