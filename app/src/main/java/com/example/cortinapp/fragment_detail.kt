@@ -1,5 +1,6 @@
 package com.example.cortinapp
 
+import android.annotation.SuppressLint
 import android.os.Bundle
 import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
@@ -30,20 +31,59 @@ class fragment_detail : Fragment() {
         }
     }
 
+    @SuppressLint("SetTextI18n")
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View? {
         val fragmento =inflater.inflate(R.layout.fragment_detail, container, false)
-        var codigo = requireArguments().getString("codigo")
-        var hora = requireArguments().getString("hora")
-        var precio = requireArguments().getString("precio")
+        var codigo = requireArguments().getString("Codigo")
+        var fecha = requireArguments().getString("Fecha")
+        var vendedor = requireArguments().getString("Vendedor")
+        var cliente = requireArguments().getString("Cliente")
+        var cedula = requireArguments().getString("Cedula")
+        var direccion = requireArguments().getString("Direccion")
+        var latitud = requireArguments().getString("Latitud")
+        var longitud = requireArguments().getString("Longitud")
+        var idCortina = requireArguments().getString("IdCortina")
+        var ancho = requireArguments().getString("Ancho")
+        var alto = requireArguments().getString("Alto")
+        var area = requireArguments().getString("Area")
+        var precio = requireArguments().getString("Precio")
+        var cuota = requireArguments().getString("Cuota")
+        var saldo = requireArguments().getString("Saldo")
+
         val textViewCodigo: TextView = fragmento.findViewById(R.id.textViewCodigo)
-        val textViewHora: TextView = fragmento.findViewById(R.id.textViewHora)
+        val textViewFecha: TextView = fragmento.findViewById(R.id.textViewFecha)
+        val textViewVendedor: TextView = fragmento.findViewById(R.id.textViewVendedor)
+        val textViewCliente: TextView = fragmento.findViewById(R.id.textViewCliente)
+        val textViewCedula: TextView = fragmento.findViewById(R.id.textViewCedula)
+        val textViewDireccion: TextView = fragmento.findViewById(R.id.textViewDireccion)
+        val textViewLatitud: TextView = fragmento.findViewById(R.id.textViewLatitud)
+        val textViewLongitud: TextView = fragmento.findViewById(R.id.textViewLongitud)
+        val textViewIdCortina: TextView = fragmento.findViewById(R.id.textViewIdCortina)
+        val textViewAncho: TextView = fragmento.findViewById(R.id.textViewAncho)
+        val textViewAlto: TextView = fragmento.findViewById(R.id.textViewAlto)
+        val textViewArea: TextView = fragmento.findViewById(R.id.textViewArea)
         val textViewPrecio: TextView = fragmento.findViewById(R.id.textViewPrecio)
+        val textViewCuota: TextView = fragmento.findViewById(R.id.textViewCuota)
+        val textViewSaldo: TextView = fragmento.findViewById(R.id.textViewSaldo)
+
         textViewCodigo.text = codigo
-        textViewHora.text = hora
+        textViewFecha.text = fecha
+        textViewVendedor.text = vendedor
+        textViewCliente.text = cliente
+        textViewCedula.text = cedula
+        textViewDireccion.text = direccion
+        textViewLatitud.text = latitud
+        textViewLongitud.text = longitud
+        textViewIdCortina.text = idCortina
+        textViewAncho.text = ancho
+        textViewAlto.text = alto
+        textViewArea.text = area
         textViewPrecio.text = precio
+        textViewCuota.text = cuota
+        textViewSaldo.text = saldo
         return fragmento
     }
 

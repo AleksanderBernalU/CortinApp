@@ -60,7 +60,7 @@
                 android:textStyle="bold" />
 
             <EditText
-                android:id="@+id/edtSellerId"
+                android:id="@+id/edtCourtainId"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="15dp"
@@ -152,7 +152,7 @@
             android:orientation="vertical">
 
             <Button
-                android:id="@+id/btnRegArt"
+                android:id="@+id/btnRegVenta"
                 android:layout_width="match_parent"
                 android:layout_height="50dp"
                 android:layout_margin="13dp"

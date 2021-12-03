@@ -1,14 +1,17 @@
 package com.example.cortinapp
 
 import android.os.Bundle
-import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
-import android.widget.TextView
+import androidx.fragment.app.Fragment
 import androidx.navigation.Navigation
 import androidx.recyclerview.widget.DividerItemDecoration
 import androidx.recyclerview.widget.RecyclerView
+import androidx.room.Room
+import com.example.cortinapp.room_database.AlmacenDatabase
+import kotlinx.coroutines.launch
+import kotlinx.coroutines.runBlocking
 
 // TODO: Rename parameter arguments, choose names that match
 // the fragment initialization parameters, e.g. ARG_ITEM_NUMBER
@@ -45,15 +48,42 @@ class FragmentListaVentas : Fragment() {
             super.onViewCreated(view, savedInstanceState)
             val recyclerVentaList: RecyclerView = view.findViewById(R.id.recycleListaVenta)
             var datos: ArrayList<Task> = ArrayList()
-            datos.add(Task(1, "09:00", 300000))
-            datos.add(Task(2, "12:00", 450000))
-            datos.add(Task(3, "18:00", 1000000))
-            datos.add(Task(4, "18:00", 5070000))
+
+            val room : AlmacenDatabase = Room.databaseBuilder(context?.applicationContext!!,
+            AlmacenDatabase::class.java,"AlmacenDatabase").build()
+            var ventaDao = room.ventaDao()
+            runBlocking {
+                launch {
+                    var result = ventaDao.getAllSales()
+                    for (venta in result){
+                        datos.add(Task(venta.Id, venta.FechaVenta, venta.CedulaVendedor, venta.CedulaCliente, venta.NombreCliente, venta.Direccion, venta.Latitud, venta.Longitud, venta.TipoCortina, venta.Ancho, venta.Alto, venta.AreaTotal, venta.Precio, venta.CuotaSemanal, venta.Saldo ))
+                    }
+
+                }
+            }
+            //datos.add(Task(1, "11-20-2020","Pedro Perez","Pepito Perez", "112233","Calle55",10,15,1,20,80,160,300000,50000,250000 ))
+            //datos.add(Task(2, "04-18-2018","Perenguita piñerez","Fulanito de tal","547621","Mz 8",8,5,2,40,100,400,1000000,100000,900000 ))
+            //datos.add(Task(3, "09-02-2019","Pablo Osea","Jonny Zee","4557","Lt 88",50,25,3,70,120,300,700000,30000,670000))
+            //datos.add(Task(4, "13-01-2021","Cleo Sepa","Maria Medrano", "154122","Calle 6",15,30,4,60,60,120,850000,50000,800000 ))
             var taskAdapter = TaskAdapter(datos){
                 val datos = Bundle()
-                datos.putInt("Codigo", it.codigo)
-                datos.putString("Hora", it.time)
-                datos.putInt("Venta Total", it.precio)
+                datos.putInt("Id", it.Id)
+/*                datos.putString("Codigo", it.Id.toString())
+                datos.putString("Fecha",it.fechaVenta)
+                datos.putString("Vendedor",it.Vendedor)
+                datos.putString("Cliente", it.Cliente)
+                datos.putString("Cedula", it.Cedula)
+                datos.putString("Direccion", it.Direccion)
+                datos.putString("Latitud", it.Latitud.toString())
+                datos.putString("Longitud", it.Longitud.toString())
+                datos.putString("IdCortina", it.idCortina.toString())
+                datos.putString("Ancho", it.ancho.toString())
+                datos.putString("Alto", it.Alto.toString())
+                datos.putString("Area", it.Area.toString())
+                datos.putString("Precio", it.Precio.toString())
+                datos.putString("Cuota", it.Cuota.toString())
+                datos.putString("Saldo", it.Saldo.toString())*/
+
                 Navigation.findNavController(view).navigate(R.id.nav_detail, datos)
             }
             recyclerVentaList.setHasFixedSize(true)

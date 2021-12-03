@@ -26,23 +26,24 @@
             android:id="@+id/textViewCodigo"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Task Title"
+            android:text="Codigo"
             android:textSize="20sp"
             android:textStyle="bold" />
 
         <TextView
-            android:id="@+id/textViewTime"
+            android:id="@+id/textViewNombre"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Time"
-            android:textSize="13sp" />
+            android:textSize="20sp" />
 
+        <!--Comentarios
         <TextView
             android:id="@+id/textViewPrecio"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Precio"
             android:textSize="13sp" />
-
+        -->
     </LinearLayout>
 </LinearLayout>
