@@ -149,11 +149,9 @@
                     android:textSize="18sp" />
 
                 <EditText
-<<<<<<< HEAD
-                    android:id="@+id/edtDate"
-=======
+
                     android:id="@+id/edtDateSale"
->>>>>>> decdd31ef71e835052597bd8f7cf96b0352de776
+
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="5dp"
@@ -225,11 +223,8 @@
                     android:textSize="18sp" />
 
                 <EditText
-<<<<<<< HEAD
-                    android:id="@+id/ediLongitud"
-=======
+
                     android:id="@+id/edtLongitude"
->>>>>>> decdd31ef71e835052597bd8f7cf96b0352de776
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="5dp"
