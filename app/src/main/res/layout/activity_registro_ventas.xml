@@ -135,7 +135,7 @@
                 android:layout_weight="1"
                 android:orientation="vertical">
 
-                <EditText
+         <!-- <EditText
                     android:id="@+id/edtVentaCode"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
@@ -148,9 +148,23 @@
                     android:minHeight="15dp"
                     android:textSize="18sp" />
 
+               -->
+
+                <EditText
+                    android:id="@+id/edtDateSale"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:background="#FFFFFF"
+                    android:backgroundTint="#FFFFFF"
+                    android:ems="10"
+                    android:hint="@string/hint_Vendedor"
+                    android:inputType="textPersonName"
+                    android:textSize="18sp" />
+
                 <EditText
 
-                    android:id="@+id/edtDateSale"
+                    android:id="@+id/edtSellerId"
 
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
@@ -160,18 +174,6 @@
                     android:ems="10"
                     android:hint="@string/hint_fechaVenta"
                     android:inputType="date|datetime"
-                    android:textSize="18sp" />
-
-                <EditText
-                    android:id="@+id/edtSellerId"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_marginTop="5dp"
-                    android:background="#FFFFFF"
-                    android:backgroundTint="#FFFFFF"
-                    android:ems="10"
-                    android:hint="@string/hint_Vendedor"
-                    android:inputType="textPersonName"
                     android:textSize="18sp" />
 
                 <EditText

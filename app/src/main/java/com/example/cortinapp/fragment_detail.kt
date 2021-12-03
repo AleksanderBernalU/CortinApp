@@ -95,7 +95,7 @@ class fragment_detail : Fragment() {
 
     override fun onViewCreated(view:  View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
-        var textViewCodigo: TextView = view.findViewById(R.id.textViewCodigo)
+        var textViewCodigoDetalle: TextView = view.findViewById(R.id.textViewCodigoDetalle)
         var textViewFecha: TextView = view.findViewById(R.id.textViewFecha)
         var textViewVendedor: TextView = view.findViewById(R.id.textViewVendedor)
         var textViewCliente: TextView = view.findViewById(R.id.textViewCliente)
@@ -116,9 +116,9 @@ class fragment_detail : Fragment() {
             AlmacenDatabase::class.java, "AlmacenDatabase").build()
         var ventaDao = room.ventaDao()
         runBlocking {
-            launch {
+             launch{
                 var result = ventaDao.findById(id)
-                textViewCodigo.text = result.Id.toString()
+                textViewCodigoDetalle.text = result.Id.toString()
                 textViewFecha.text = result.FechaVenta
                 textViewVendedor.text = result.CedulaVendedor
                 textViewCedula.text = result.CedulaCliente
@@ -128,18 +128,14 @@ class fragment_detail : Fragment() {
                 textViewLongitud.text = result.Longitud
                 textViewIdCortina.text = result.TipoCortina
                 textViewAncho.text = result.Ancho
-
                 textViewAlto.text = result.Alto
                 textViewArea.text = result.AreaTotal
                 textViewPrecio.text = result.Precio
                 textViewCuota.text = result.CuotaSemanal
                 textViewSaldo.text = result.Saldo
 
-
-
-
-
             }
+
         }
 
     }
