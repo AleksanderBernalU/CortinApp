@@ -1,8 +1,10 @@
 package com.example.cortinapp.room_database
 import androidx.room.*
 
+
 @Entity
 data class Venta (
+
     @PrimaryKey(autoGenerate = true)
     val Id: Int,
     val FechaVenta: String,
@@ -19,4 +21,5 @@ data class Venta (
     val Precio: String,
     val CuotaSemanal: String,
     val Saldo: String
+
 )
