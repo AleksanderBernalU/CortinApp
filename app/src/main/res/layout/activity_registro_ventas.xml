@@ -4,8 +4,10 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@color/edt_background"
+    android:backgroundTint="@color/edt_background"
     android:orientation="vertical"
-    tools:context=".MainActivity" >
+    tools:context=".MainActivity">
 
     <ImageView
         android:id="@+id/imageView2"
@@ -51,7 +53,7 @@
                     android:layout_height="wrap_content"
                     android:layout_marginStart="5dp"
                     android:text="@string/text_CodigoVenta"
-                    android:textColor="#040404"
+                    android:textColor="@color/text"
                     android:textSize="18sp"
                     android:textStyle="bold" />
 
@@ -61,7 +63,7 @@
                     android:layout_marginStart="5dp"
                     android:layout_marginTop="5dp"
                     android:text="@string/text_fechaVenta"
-                    android:textColor="#040404"
+                    android:textColor="@color/text"
                     android:textSize="18sp"
                     android:textStyle="bold" />
 
@@ -71,7 +73,7 @@
                     android:layout_marginLeft="5dp"
                     android:layout_marginTop="5dp"
                     android:text="@string/text_vendedor"
-                    android:textColor="#040404"
+                    android:textColor="@color/text"
                     android:textSize="18sp"
                     android:textStyle="bold" />
 
@@ -81,7 +83,7 @@
                     android:layout_marginLeft="5dp"
                     android:layout_marginTop="5dp"
                     android:text="@string/text_CedulaCliente"
-                    android:textColor="#040404"
+                    android:textColor="@color/text"
                     android:textSize="18sp"
                     android:textStyle="bold" />
 
@@ -91,7 +93,7 @@
                     android:layout_marginLeft="5dp"
                     android:layout_marginTop="5dp"
                     android:text="@string/text_Cliente"
-                    android:textColor="#040404"
+                    android:textColor="@color/text"
                     android:textSize="18sp"
                     android:textStyle="bold" />
 
@@ -101,7 +103,7 @@
                     android:layout_marginStart="5dp"
                     android:layout_marginTop="5dp"
                     android:text="@string/text_Direccion"
-                    android:textColor="#040404"
+                    android:textColor="@color/text"
                     android:textSize="18sp"
                     android:textStyle="bold" />
 
@@ -111,7 +113,7 @@
                     android:layout_marginLeft="5dp"
                     android:layout_marginTop="5dp"
                     android:text="@string/text_Latitud"
-                    android:textColor="#040404"
+                    android:textColor="@color/text"
                     android:textSize="18sp"
                     android:textStyle="bold" />
 
@@ -122,7 +124,7 @@
                     android:layout_marginLeft="5dp"
                     android:layout_marginTop="5dp"
                     android:text="@string/text_Longitud"
-                    android:textColor="#040404"
+                    android:textColor="@color/text"
                     android:textSize="18sp"
                     android:textStyle="bold" />
             </LinearLayout>
@@ -140,7 +142,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:background="#FFFFFF"
-                    android:backgroundTint="#FFFFFF"
+                    android:backgroundTint="@color/edt_background"
                     android:ems="10"
                     android:hint="@string/hint_CodigoVenta"
                     android:importantForAutofill="no"
@@ -154,7 +156,7 @@
                     android:layout_height="wrap_content"
                     android:layout_marginTop="5dp"
                     android:background="#FFFFFF"
-                    android:backgroundTint="#FFFFFF"
+                    android:backgroundTint="@color/edt_background"
                     android:ems="10"
                     android:hint="@string/hint_fechaVenta"
                     android:inputType="date|datetime"
@@ -166,7 +168,7 @@
                     android:layout_height="wrap_content"
                     android:layout_marginTop="5dp"
                     android:background="#FFFFFF"
-                    android:backgroundTint="#FFFFFF"
+                    android:backgroundTint="@color/edt_background"
                     android:ems="10"
                     android:hint="@string/hint_Vendedor"
                     android:inputType="textPersonName"
@@ -178,7 +180,7 @@
                     android:layout_height="wrap_content"
                     android:layout_marginTop="5dp"
                     android:background="#FFFFFF"
-                    android:backgroundTint="#FFFFFF"
+                    android:backgroundTint="@color/edt_background"
                     android:ems="10"
                     android:hint="@string/hint_CedulaCliente"
                     android:inputType="textPersonName"
@@ -190,7 +192,7 @@
                     android:layout_height="wrap_content"
                     android:layout_marginTop="5dp"
                     android:background="#FFFFFF"
-                    android:backgroundTint="#FFFFFF"
+                    android:backgroundTint="@color/edt_background"
                     android:ems="10"
                     android:hint="@string/hint_Cliente"
                     android:inputType="textPersonName"
@@ -202,7 +204,7 @@
                     android:layout_height="wrap_content"
                     android:layout_marginTop="5dp"
                     android:background="#FFFFFF"
-                    android:backgroundTint="#FFFFFF"
+                    android:backgroundTint="@color/edt_background"
                     android:ems="10"
                     android:hint="@string/hint_Direccion"
                     android:inputType="textPersonName"
@@ -214,7 +216,7 @@
                     android:layout_height="wrap_content"
                     android:layout_marginTop="5dp"
                     android:background="#FFFFFF"
-                    android:backgroundTint="#FFFFFF"
+                    android:backgroundTint="@color/edt_background"
                     android:ems="10"
                     android:hint="@string/hint_Latitud"
                     android:inputType="textPersonName"
@@ -226,13 +228,14 @@
                     android:layout_height="wrap_content"
                     android:layout_marginTop="5dp"
                     android:background="#FFFFFF"
-                    android:backgroundTint="#FFFFFF"
+                    android:backgroundTint="@color/edt_background"
                     android:ems="10"
                     android:hint="@string/hint_Longitud"
                     android:inputType="textPersonName"
                     android:textSize="18sp" />
             </LinearLayout>
         </LinearLayout>
+
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -253,7 +256,7 @@
                     android:layout_marginLeft="5dp"
                     android:layout_marginTop="5dp"
                     android:text="@string/text_Articulo"
-                    android:textColor="#040404"
+                    android:textColor="@color/text"
                     android:textSize="18dp"
                     android:textStyle="bold" />
 
@@ -263,7 +266,7 @@
                     android:layout_marginLeft="5dp"
                     android:layout_marginTop="5dp"
                     android:text="@string/text_Ancho"
-                    android:textColor="#040404"
+                    android:textColor="@color/text"
                     android:textSize="18sp"
                     android:textStyle="bold" />
 
@@ -273,7 +276,7 @@
                     android:layout_marginLeft="5dp"
                     android:layout_marginTop="5dp"
                     android:text="@string/text_Alto"
-                    android:textColor="#040404"
+                    android:textColor="@color/text"
                     android:textSize="18sp"
                     android:textStyle="bold" />
 
@@ -283,7 +286,7 @@
                     android:layout_marginLeft="5dp"
                     android:layout_marginTop="5dp"
                     android:text="@string/text_AreaTotal"
-                    android:textColor="#040404"
+                    android:textColor="@color/text"
                     android:textSize="18dp"
                     android:textStyle="bold" />
 
@@ -293,7 +296,7 @@
                     android:layout_marginLeft="5dp"
                     android:layout_marginTop="5dp"
                     android:text="@string/text_Precio"
-                    android:textColor="#040404"
+                    android:textColor="@color/text"
                     android:textSize="18dp"
                     android:textStyle="bold" />
             </LinearLayout>
@@ -311,7 +314,7 @@
                     android:layout_height="wrap_content"
                     android:layout_marginTop="5dp"
                     android:background="#FFFFFF"
-                    android:backgroundTint="#FFFFFF"
+                    android:backgroundTint="@color/edt_background"
                     android:ems="10"
                     android:hint="@string/hint_Articulo"
                     android:inputType="textPersonName"
@@ -323,7 +326,7 @@
                     android:layout_height="wrap_content"
                     android:layout_marginTop="5dp"
                     android:background="#FFFFFF"
-                    android:backgroundTint="#FFFFFF"
+                    android:backgroundTint="@color/edt_background"
                     android:ems="10"
                     android:hint="@string/hint_Ancho"
                     android:inputType="textPersonName"
@@ -335,7 +338,7 @@
                     android:layout_height="wrap_content"
                     android:layout_marginTop="5dp"
                     android:background="#FFFFFF"
-                    android:backgroundTint="#FFFFFF"
+                    android:backgroundTint="@color/edt_background"
                     android:ems="10"
                     android:hint="@string/hint_Alto"
                     android:inputType="textPersonName"
@@ -347,7 +350,7 @@
                     android:layout_height="wrap_content"
                     android:layout_marginTop="5dp"
                     android:background="#FFFFFF"
-                    android:backgroundTint="#FFFFFF"
+                    android:backgroundTint="@color/edt_background"
                     android:ems="10"
                     android:hint="@string/hint_AreaTotal"
                     android:inputType="textPersonName"
@@ -359,7 +362,7 @@
                     android:layout_height="wrap_content"
                     android:layout_marginTop="5dp"
                     android:background="#FFFFFF"
-                    android:backgroundTint="#FFFFFF"
+                    android:backgroundTint="@color/edt_background"
                     android:ems="10"
                     android:hint="@string/hint_Precio"
                     android:inputType="textPersonName"

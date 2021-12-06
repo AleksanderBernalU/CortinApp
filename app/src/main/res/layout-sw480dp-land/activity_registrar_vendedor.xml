@@ -157,8 +157,8 @@
                 android:layout_height="50dp"
                 android:layout_margin="13dp"
                 android:backgroundTint="@color/design_default_color_error"
-                android:text="Registrar Vendedor"
-                android:textSize="17dp">
+                android:text="@string/registro_vendedor"
+                android:textSize="17sp">
 
             </Button>
         </LinearLayout>

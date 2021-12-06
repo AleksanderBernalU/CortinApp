@@ -4,8 +4,9 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@color/edt_background"
     android:orientation="vertical"
-    tools:context=".MainActivity" >
+    tools:context=".MainActivity">
 
     <ImageView
         android:id="@+id/imageView2"
@@ -29,13 +30,14 @@
             <TextView
                 android:id="@+id/textView"
                 android:layout_width="match_parent"
-                android:layout_height="33dp"
+                android:layout_height="wrap_content"
                 android:layout_marginTop="25dp"
                 android:gravity="center_horizontal"
                 android:orientation="vertical"
                 android:text="@string/registro_articulo"
-                android:textSize="20sp"
+                android:textSize="48sp"
                 android:textStyle="bold" />
+
             <TextView
                 android:id="@+id/textView1"
                 android:layout_width="wrap_content"
@@ -43,8 +45,8 @@
                 android:layout_marginLeft="15dp"
                 android:layout_marginTop="15dp"
                 android:text="@string/text_CodigoArticulo"
-                android:textColor="#040404"
-                android:textSize="18dp"
+                android:textColor="@color/text"
+                android:textSize="24sp"
                 android:textStyle="bold" />
 
             <EditText
@@ -52,12 +54,14 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="15dp"
-                android:background="#FFFFFF"
-                android:backgroundTint="#FFFFFF"
+                android:background="@color/edt_background"
+                android:backgroundTint="@color/edt_background"
                 android:ems="10"
                 android:hint="@string/hint_CodigoArticulo"
                 android:inputType="textPersonName"
-                android:textSize="18sp" />
+                android:textColor="@color/text"
+                android:textSize="24sp" />
+
             <TextView
                 android:id="@+id/textView2"
                 android:layout_width="wrap_content"
@@ -65,8 +69,8 @@
                 android:layout_marginLeft="15dp"
                 android:layout_marginTop="15dp"
                 android:text="@string/text_Articulo"
-                android:textColor="#040404"
-                android:textSize="18dp"
+                android:textColor="@color/text"
+                android:textSize="24sp"
                 android:textStyle="bold" />
 
             <EditText
@@ -74,12 +78,13 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="15dp"
-                android:background="#FFFFFF"
-                android:backgroundTint="#FFFFFF"
+                android:background="@color/edt_background"
+                android:backgroundTint="@color/edt_background"
                 android:ems="10"
                 android:hint="@string/hint_Articulo"
                 android:inputType="textPersonName"
-                android:textSize="18sp" />
+                android:textColor="@color/text"
+                android:textSize="24sp" />
 
             <TextView
                 android:id="@+id/textView10"
@@ -88,8 +93,8 @@
                 android:layout_marginLeft="15dp"
                 android:layout_marginTop="15dp"
                 android:text="@string/text_ColorCortina"
-                android:textColor="#040404"
-                android:textSize="18sp"
+                android:textColor="@color/text"
+                android:textSize="24sp"
                 android:textStyle="bold" />
 
             <EditText
@@ -97,12 +102,13 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="15dp"
-                android:background="#FFFFFF"
-                android:backgroundTint="#FFFFFF"
+                android:background="@color/edt_background"
+                android:backgroundTint="@color/edt_background"
                 android:ems="10"
                 android:hint="@string/hint_ColorCortina"
                 android:inputType="textPersonName"
-                android:textSize="18sp" />
+                android:textColor="@color/text"
+                android:textSize="24sp" />
 
 
             <TextView
@@ -112,8 +118,8 @@
                 android:layout_marginLeft="15dp"
                 android:layout_marginTop="15dp"
                 android:text="@string/text_Valorm2"
-                android:textColor="#040404"
-                android:textSize="18dp"
+                android:textColor="@color/text"
+                android:textSize="24sp"
                 android:textStyle="bold" />
 
             <EditText
@@ -121,12 +127,13 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="15dp"
-                android:background="#FFFFFF"
-                android:backgroundTint="#FFFFFF"
+                android:background="@color/edt_background"
+                android:backgroundTint="@color/edt_background"
                 android:ems="10"
                 android:hint="@string/hint_Valorm2"
                 android:inputType="textPersonName"
-                android:textSize="18sp" />
+                android:textColor="@color/text"
+                android:textSize="24sp" />
         </LinearLayout>
 
         <LinearLayout
@@ -142,7 +149,8 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:backgroundTint="@color/clear_blue"
-                android:text="@string/registro_articulo"></Button>
+                android:text="@string/registro_articulo"
+                android:textSize="34sp"></Button>
         </LinearLayout>
     </LinearLayout>
 </LinearLayout>

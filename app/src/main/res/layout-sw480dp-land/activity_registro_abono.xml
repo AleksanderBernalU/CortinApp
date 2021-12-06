@@ -117,7 +117,7 @@
 
                 <TextView
                     android:id="@+id/textView5"
-                    android:layout_width="match_parent"
+                    android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="10dp"
                     android:paddingLeft="10dp"
@@ -126,7 +126,7 @@
 
                 <EditText
                     android:id="@+id/editTextFechaAbono"
-                    android:layout_width="match_parent"
+                    android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:ems="10"
                     android:inputType="textPersonName|textEmailAddress"
@@ -136,7 +136,7 @@
 
                 <TextView
                     android:id="@+id/textView6"
-                    android:layout_width="match_parent"
+                    android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="10dp"
                     android:paddingLeft="10dp"
@@ -145,35 +145,43 @@
 
                 <EditText
                     android:id="@+id/editTextValorAbono"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
+                    android:layout_width="wrap_content"
+                    android:layout_height="27dp"
                     android:ems="10"
                     android:inputType="textPersonName|textEmailAddress"
                     android:paddingLeft="10dp"
                     android:textColor="@color/clear_blue"
                     android:textSize="34sp" />
 
-                <Button
-                    android:id="@+id/Button01"
-                    android:layout_width="320dp"
-                    android:layout_height="wrap_content"
-                    android:layout_alignParentRight="true"
-                    android:layout_marginLeft="55dp"
-                    android:layout_marginRight="55dp"
-                    android:backgroundTint="@color/clear_blue"
-                    android:text="@string/Guardar"
-                    android:textSize="34sp"></Button>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:orientation="vertical">
 
-                <Button
-                    android:id="@+id/Button02"
-                    android:layout_width="320dp"
-                    android:layout_height="wrap_content"
-                    android:layout_alignParentRight="true"
-                    android:layout_marginLeft="55dp"
-                    android:layout_marginRight="55dp"
-                    android:backgroundTint="@color/design_default_color_error"
-                    android:text="@string/Cancelar"
-                    android:textSize="34sp"></Button>
+                    <Button
+                        android:id="@+id/Button02"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:layout_marginLeft="55dp"
+                        android:layout_marginRight="55dp"
+                        android:backgroundTint="@color/design_default_color_error"
+                        android:text="@string/Cancelar"
+                        android:textSize="34sp"></Button>
+
+                    <Button
+                        android:id="@+id/Button01"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:layout_marginLeft="55dp"
+                        android:layout_marginRight="55dp"
+                        android:backgroundTint="@color/clear_blue"
+                        android:text="@string/Guardar"
+                        android:textSize="34sp"></Button>
+                </LinearLayout>
+
             </LinearLayout>
         </LinearLayout>
     </LinearLayout>

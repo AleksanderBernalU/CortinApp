@@ -30,7 +30,7 @@
             android:backgroundTint="@color/design_default_color_error"
             android:gravity="center|center_horizontal"
             android:text="@string/button_AgregarVenta"
-            android:textSize="40sp"></Button>
+            android:textSize="43sp"></Button>
     </LinearLayout>
 
     <LinearLayout
@@ -71,7 +71,7 @@
                     android:layout_marginStart="5dp"
                     android:text="@string/text_CodigoVenta"
                     android:textColor="#040404"
-                    android:textSize="35sp"
+                    android:textSize="43sp"
                     android:textStyle="bold" />
 
                 <TextView
@@ -81,7 +81,7 @@
                     android:layout_marginTop="5dp"
                     android:text="@string/text_fechaVenta"
                     android:textColor="#040404"
-                    android:textSize="35sp"
+                    android:textSize="43sp"
                     android:textStyle="bold" />
 
                 <TextView
@@ -91,7 +91,7 @@
                     android:layout_marginTop="5dp"
                     android:text="@string/text_vendedor"
                     android:textColor="#040404"
-                    android:textSize="35sp"
+                    android:textSize="43sp"
                     android:textStyle="bold" />
 
                 <TextView
@@ -101,7 +101,7 @@
                     android:layout_marginTop="5dp"
                     android:text="@string/text_CedulaCliente"
                     android:textColor="#040404"
-                    android:textSize="35sp"
+                    android:textSize="43sp"
                     android:textStyle="bold" />
 
                 <TextView
@@ -111,7 +111,7 @@
                     android:layout_marginTop="5dp"
                     android:text="@string/text_Cliente"
                     android:textColor="#040404"
-                    android:textSize="35sp"
+                    android:textSize="43sp"
                     android:textStyle="bold" />
 
                 <TextView
@@ -121,7 +121,7 @@
                     android:layout_marginTop="5dp"
                     android:text="@string/text_Direccion"
                     android:textColor="#040404"
-                    android:textSize="35sp"
+                    android:textSize="43sp"
                     android:textStyle="bold" />
 
                 <TextView
@@ -131,7 +131,7 @@
                     android:layout_marginTop="5dp"
                     android:text="@string/text_Latitud"
                     android:textColor="#040404"
-                    android:textSize="35sp"
+                    android:textSize="43sp"
                     android:textStyle="bold" />
 
                 <TextView
@@ -142,7 +142,7 @@
                     android:layout_marginTop="5dp"
                     android:text="@string/text_Longitud"
                     android:textColor="#040404"
-                    android:textSize="35sp"
+                    android:textSize="43sp"
                     android:textStyle="bold" />
             </LinearLayout>
 
@@ -165,7 +165,7 @@
                     android:importantForAutofill="no"
                     android:inputType="textPersonName"
                     android:minHeight="15dp"
-                    android:textSize="35sp" />
+                    android:textSize="43sp" />
 
                 <EditText
                     android:id="@+id/edtClientName"
@@ -177,7 +177,7 @@
                     android:ems="10"
                     android:hint="@string/hint_fechaVenta"
                     android:inputType="date|datetime"
-                    android:textSize="35sp" />
+                    android:textSize="43sp" />
 
                 <EditText
                     android:id="@+id/edtSellerName"
@@ -189,7 +189,7 @@
                     android:ems="10"
                     android:hint="@string/hint_Vendedor"
                     android:inputType="textPersonName"
-                    android:textSize="35sp" />
+                    android:textSize="43sp" />
 
                 <EditText
                     android:id="@+id/edtClientId"
@@ -201,7 +201,7 @@
                     android:ems="10"
                     android:hint="@string/hint_CedulaCliente"
                     android:inputType="textPersonName"
-                    android:textSize="35sp" />
+                    android:textSize="43sp" />
 
                 <EditText
                     android:id="@+id/edtCientName"
@@ -213,7 +213,7 @@
                     android:ems="10"
                     android:hint="@string/hint_Cliente"
                     android:inputType="textPersonName"
-                    android:textSize="35sp" />
+                    android:textSize="43sp" />
 
                 <EditText
                     android:id="@+id/edtClientAddress"
@@ -225,7 +225,7 @@
                     android:ems="10"
                     android:hint="@string/hint_Direccion"
                     android:inputType="textPersonName"
-                    android:textSize="35sp" />
+                    android:textSize="43sp" />
 
                 <EditText
                     android:id="@+id/edtLatitude"
@@ -237,7 +237,7 @@
                     android:ems="10"
                     android:hint="@string/hint_Latitud"
                     android:inputType="textPersonName"
-                    android:textSize="35sp" />
+                    android:textSize="43sp" />
 
                 <EditText
                     android:id="@+id/editTextTextPersonName8"
@@ -249,7 +249,7 @@
                     android:ems="10"
                     android:hint="@string/hint_Longitud"
                     android:inputType="textPersonName"
-                    android:textSize="35sp" />
+                    android:textSize="43sp" />
             </LinearLayout>
         </LinearLayout>
 
@@ -274,7 +274,7 @@
                     android:layout_marginTop="5dp"
                     android:text="@string/text_Articulo"
                     android:textColor="#040404"
-                    android:textSize="35sp"
+                    android:textSize="43sp"
                     android:textStyle="bold" />
 
                 <TextView
@@ -284,7 +284,7 @@
                     android:layout_marginTop="5dp"
                     android:text="@string/text_Ancho"
                     android:textColor="#040404"
-                    android:textSize="35sp"
+                    android:textSize="43sp"
                     android:textStyle="bold" />
 
                 <TextView
@@ -294,7 +294,7 @@
                     android:layout_marginTop="5dp"
                     android:text="@string/text_Alto"
                     android:textColor="#040404"
-                    android:textSize="35sp"
+                    android:textSize="43sp"
                     android:textStyle="bold" />
 
                 <TextView
@@ -304,7 +304,7 @@
                     android:layout_marginTop="5dp"
                     android:text="@string/text_AreaTotal"
                     android:textColor="#040404"
-                    android:textSize="35sp"
+                    android:textSize="43sp"
                     android:textStyle="bold" />
 
                 <TextView
@@ -314,7 +314,7 @@
                     android:layout_marginTop="5dp"
                     android:text="@string/text_Precio"
                     android:textColor="#040404"
-                    android:textSize="38sp"
+                    android:textSize="43sp"
                     android:textStyle="bold" />
             </LinearLayout>
 
@@ -335,7 +335,7 @@
                     android:ems="10"
                     android:hint="@string/hint_Articulo"
                     android:inputType="textPersonName"
-                    android:textSize="35sp" />
+                    android:textSize="43sp" />
 
                 <EditText
                     android:id="@+id/edtWidth"
@@ -347,7 +347,7 @@
                     android:ems="10"
                     android:hint="@string/hint_Ancho"
                     android:inputType="textPersonName"
-                    android:textSize="35sp" />
+                    android:textSize="43sp" />
 
                 <EditText
                     android:id="@+id/edtHeight"
@@ -359,7 +359,7 @@
                     android:ems="10"
                     android:hint="@string/hint_Alto"
                     android:inputType="textPersonName"
-                    android:textSize="35sp" />
+                    android:textSize="43sp" />
 
                 <EditText
                     android:id="@+id/edtTotalArea"
@@ -371,7 +371,7 @@
                     android:ems="10"
                     android:hint="@string/hint_AreaTotal"
                     android:inputType="textPersonName"
-                    android:textSize="35sp" />
+                    android:textSize="43sp" />
 
                 <EditText
                     android:id="@+id/edtPrice"
@@ -383,7 +383,7 @@
                     android:ems="10"
                     android:hint="@string/hint_Precio"
                     android:inputType="textPersonName"
-                    android:textSize="35sp" />
+                    android:textSize="43sp" />
             </LinearLayout>
         </LinearLayout>
     </LinearLayout>

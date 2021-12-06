@@ -16,7 +16,7 @@
 
         <ImageView
             android:id="@+id/imageView2"
-            android:layout_width="wrap_content"
+            android:layout_width="545dp"
             android:layout_height="match_parent"
             android:layout_weight="1"
             android:contentDescription="@string/logo"
@@ -37,7 +37,7 @@
             android:gravity="center_horizontal"
             android:orientation="vertical"
             android:text="@string/registro_abono"
-            android:textSize="40sp"
+            android:textSize="65sp"
             android:textStyle="bold" />
 
         <LinearLayout
@@ -59,7 +59,7 @@
                     android:layout_marginTop="10dp"
                     android:paddingLeft="10dp"
                     android:text="@string/text_CodigoVenta"
-                    android:textSize="40sp" />
+                    android:textSize="60sp" />
 
                 <EditText
                     android:id="@+id/edtVentaCode"
@@ -68,7 +68,7 @@
                     android:ems="10"
                     android:paddingLeft="10dp"
                     android:textColor="@color/clear_blue"
-                    android:textSize="40sp" />
+                    android:textSize="60sp" />
 
                 <TextView
                     android:id="@+id/textView3"
@@ -77,7 +77,7 @@
                     android:layout_marginTop="10dp"
                     android:paddingLeft="10dp"
                     android:text="@string/text_Cliente"
-                    android:textSize="40sp" />
+                    android:textSize="60sp" />
 
                 <EditText
                     android:id="@+id/edtClientName"
@@ -87,7 +87,7 @@
                     android:inputType="textPersonName"
                     android:paddingLeft="10dp"
                     android:textColor="@color/clear_blue"
-                    android:textSize="40sp" />
+                    android:textSize="60sp" />
 
                 <TextView
                     android:id="@+id/textView4"
@@ -96,7 +96,7 @@
                     android:layout_marginTop="10dp"
                     android:paddingLeft="10dp"
                     android:text="@string/saldo_actual"
-                    android:textSize="40sp" />
+                    android:textSize="60sp" />
 
                 <EditText
                     android:id="@+id/editTextSaldo"
@@ -106,7 +106,7 @@
                     android:inputType="textPersonName|textEmailAddress"
                     android:paddingLeft="10dp"
                     android:textColor="@color/clear_blue"
-                    android:textSize="40sp" />
+                    android:textSize="60sp" />
             </LinearLayout>
 
             <LinearLayout
@@ -123,7 +123,7 @@
                     android:layout_marginTop="10dp"
                     android:paddingLeft="10dp"
                     android:text="@string/fecha_abono"
-                    android:textSize="40sp" />
+                    android:textSize="60sp" />
 
                 <EditText
                     android:id="@+id/editTextFechaAbono"
@@ -133,7 +133,7 @@
                     android:inputType="textPersonName|textEmailAddress"
                     android:paddingLeft="10dp"
                     android:textColor="@color/clear_blue"
-                    android:textSize="40sp" />
+                    android:textSize="60sp" />
 
                 <TextView
                     android:id="@+id/textView6"
@@ -142,7 +142,7 @@
                     android:layout_marginTop="10dp"
                     android:paddingLeft="10dp"
                     android:text="@string/valor_abono"
-                    android:textSize="40sp" />
+                    android:textSize="60sp" />
 
                 <EditText
                     android:id="@+id/editTextValorAbono"
@@ -152,7 +152,7 @@
                     android:inputType="textPersonName|textEmailAddress"
                     android:paddingLeft="10dp"
                     android:textColor="@color/clear_blue"
-                    android:textSize="40sp" />
+                    android:textSize="60sp" />
 
                 <LinearLayout
                     android:layout_width="match_parent"
@@ -170,7 +170,7 @@
                         android:backgroundTint="@color/clear_blue"
                         android:gravity="center"
                         android:text="@string/Guardar"
-                        android:textSize="40sp"></Button>
+                        android:textSize="60sp"></Button>
 
                     <Button
                         android:id="@+id/Button02"
@@ -183,7 +183,7 @@
                         android:backgroundTint="@color/design_default_color_error"
                         android:gravity="center"
                         android:text="@string/Cancelar"
-                        android:textSize="40sp"></Button>
+                        android:textSize="60sp"></Button>
                 </LinearLayout>
 
             </LinearLayout>

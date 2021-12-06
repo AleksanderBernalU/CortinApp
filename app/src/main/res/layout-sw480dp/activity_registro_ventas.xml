@@ -24,23 +24,23 @@
             android:id="@+id/textView"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginTop="30dp"
+            android:layout_marginTop="25dp"
             android:gravity="center_horizontal"
             android:orientation="vertical"
             android:text="@string/registro_ventas"
-            android:textSize="50sp"
+            android:textSize="34sp"
             android:textStyle="bold" />
 
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="429dp"
+            android:layout_height="wrap_content"
             android:layout_marginStart="2dp"
-            android:layout_marginTop="30dp"
+            android:layout_marginTop="3dp"
             android:orientation="horizontal">
 
             <LinearLayout
                 android:layout_width="match_parent"
-                android:layout_height="415dp"
+                android:layout_height="wrap_content"
                 android:layout_marginStart="2dp"
                 android:layout_marginTop="10dp"
                 android:layout_weight="1.4"
@@ -52,7 +52,7 @@
                     android:layout_marginStart="5dp"
                     android:text="@string/text_CodigoVenta"
                     android:textColor="#040404"
-                    android:textSize="50sp"
+                    android:textSize="24sp"
                     android:textStyle="bold" />
 
                 <TextView
@@ -62,7 +62,7 @@
                     android:layout_marginTop="5dp"
                     android:text="@string/text_fechaVenta"
                     android:textColor="#040404"
-                    android:textSize="50sp"
+                    android:textSize="24sp"
                     android:textStyle="bold" />
 
                 <TextView
@@ -72,7 +72,7 @@
                     android:layout_marginTop="5dp"
                     android:text="@string/text_vendedor"
                     android:textColor="#040404"
-                    android:textSize="50sp"
+                    android:textSize="24sp"
                     android:textStyle="bold" />
 
                 <TextView
@@ -82,7 +82,7 @@
                     android:layout_marginTop="5dp"
                     android:text="@string/text_CedulaCliente"
                     android:textColor="#040404"
-                    android:textSize="50sp"
+                    android:textSize="24sp"
                     android:textStyle="bold" />
 
                 <TextView
@@ -92,7 +92,7 @@
                     android:layout_marginTop="5dp"
                     android:text="@string/text_Cliente"
                     android:textColor="#040404"
-                    android:textSize="50sp"
+                    android:textSize="24sp"
                     android:textStyle="bold" />
 
                 <TextView
@@ -102,7 +102,7 @@
                     android:layout_marginTop="5dp"
                     android:text="@string/text_Direccion"
                     android:textColor="#040404"
-                    android:textSize="50sp"
+                    android:textSize="24sp"
                     android:textStyle="bold" />
 
                 <TextView
@@ -112,7 +112,7 @@
                     android:layout_marginTop="5dp"
                     android:text="@string/text_Latitud"
                     android:textColor="#040404"
-                    android:textSize="50sp"
+                    android:textSize="24sp"
                     android:textStyle="bold" />
 
                 <TextView
@@ -123,7 +123,7 @@
                     android:layout_marginTop="5dp"
                     android:text="@string/text_Longitud"
                     android:textColor="#040404"
-                    android:textSize="50sp"
+                    android:textSize="24sp"
                     android:textStyle="bold" />
             </LinearLayout>
 
@@ -146,7 +146,7 @@
                     android:importantForAutofill="no"
                     android:inputType="textPersonName"
                     android:minHeight="15dp"
-                    android:textSize="50sp" />
+                    android:textSize="24sp" />
 
                 <EditText
                     android:id="@+id/edtClientName"
@@ -158,7 +158,7 @@
                     android:ems="10"
                     android:hint="@string/hint_fechaVenta"
                     android:inputType="date|datetime"
-                    android:textSize="50sp" />
+                    android:textSize="24sp" />
 
                 <EditText
                     android:id="@+id/edtSellerName"
@@ -170,7 +170,7 @@
                     android:ems="10"
                     android:hint="@string/hint_Vendedor"
                     android:inputType="textPersonName"
-                    android:textSize="50sp" />
+                    android:textSize="24sp" />
 
                 <EditText
                     android:id="@+id/edtClientId"
@@ -182,7 +182,7 @@
                     android:ems="10"
                     android:hint="@string/hint_CedulaCliente"
                     android:inputType="textPersonName"
-                    android:textSize="50sp" />
+                    android:textSize="24sp" />
 
                 <EditText
                     android:id="@+id/edtCientName"
@@ -194,7 +194,7 @@
                     android:ems="10"
                     android:hint="@string/hint_Cliente"
                     android:inputType="textPersonName"
-                    android:textSize="50sp" />
+                    android:textSize="24sp" />
 
                 <EditText
                     android:id="@+id/edtClientAddress"
@@ -206,7 +206,7 @@
                     android:ems="10"
                     android:hint="@string/hint_Direccion"
                     android:inputType="textPersonName"
-                    android:textSize="50sp" />
+                    android:textSize="24sp" />
 
                 <EditText
                     android:id="@+id/edtLatitude"
@@ -218,7 +218,7 @@
                     android:ems="10"
                     android:hint="@string/hint_Latitud"
                     android:inputType="textPersonName"
-                    android:textSize="50sp" />
+                    android:textSize="24sp" />
 
                 <EditText
                     android:id="@+id/editTextTextPersonName8"
@@ -230,7 +230,7 @@
                     android:ems="10"
                     android:hint="@string/hint_Longitud"
                     android:inputType="textPersonName"
-                    android:textSize="50sp" />
+                    android:textSize="24sp" />
             </LinearLayout>
         </LinearLayout>
 
@@ -238,7 +238,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginStart="2dp"
-            android:layout_marginTop="20dp"
+            android:layout_marginTop="10dp"
             android:orientation="horizontal">
 
             <LinearLayout
@@ -255,7 +255,7 @@
                     android:layout_marginTop="5dp"
                     android:text="@string/text_Articulo"
                     android:textColor="#040404"
-                    android:textSize="50sp"
+                    android:textSize="24sp"
                     android:textStyle="bold" />
 
                 <TextView
@@ -265,7 +265,7 @@
                     android:layout_marginTop="5dp"
                     android:text="@string/text_Ancho"
                     android:textColor="#040404"
-                    android:textSize="50sp"
+                    android:textSize="24sp"
                     android:textStyle="bold" />
 
                 <TextView
@@ -275,7 +275,7 @@
                     android:layout_marginTop="5dp"
                     android:text="@string/text_Alto"
                     android:textColor="#040404"
-                    android:textSize="50sp"
+                    android:textSize="24sp"
                     android:textStyle="bold" />
 
                 <TextView
@@ -285,7 +285,7 @@
                     android:layout_marginTop="5dp"
                     android:text="@string/text_AreaTotal"
                     android:textColor="#040404"
-                    android:textSize="50sp"
+                    android:textSize="24sp"
                     android:textStyle="bold" />
 
                 <TextView
@@ -295,7 +295,7 @@
                     android:layout_marginTop="5dp"
                     android:text="@string/text_Precio"
                     android:textColor="#040404"
-                    android:textSize="50sp"
+                    android:textSize="24sp"
                     android:textStyle="bold" />
             </LinearLayout>
 
@@ -316,7 +316,7 @@
                     android:ems="10"
                     android:hint="@string/hint_Articulo"
                     android:inputType="textPersonName"
-                    android:textSize="50sp" />
+                    android:textSize="24sp" />
 
                 <EditText
                     android:id="@+id/edtWidth"
@@ -328,7 +328,7 @@
                     android:ems="10"
                     android:hint="@string/hint_Ancho"
                     android:inputType="textPersonName"
-                    android:textSize="50sp" />
+                    android:textSize="24sp" />
 
                 <EditText
                     android:id="@+id/edtHeight"
@@ -340,7 +340,7 @@
                     android:ems="10"
                     android:hint="@string/hint_Alto"
                     android:inputType="textPersonName"
-                    android:textSize="50sp" />
+                    android:textSize="24sp" />
 
                 <EditText
                     android:id="@+id/edtTotalArea"
@@ -352,7 +352,7 @@
                     android:ems="10"
                     android:hint="@string/hint_AreaTotal"
                     android:inputType="textPersonName"
-                    android:textSize="50sp" />
+                    android:textSize="24sp" />
 
                 <EditText
                     android:id="@+id/edtPrice"
@@ -364,14 +364,14 @@
                     android:ems="10"
                     android:hint="@string/hint_Precio"
                     android:inputType="textPersonName"
-                    android:textSize="50sp" />
+                    android:textSize="24sp" />
             </LinearLayout>
         </LinearLayout>
     </LinearLayout>
 
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="match_parent"
         android:layout_marginLeft="2dp"
         android:gravity="center"
         android:orientation="vertical">
@@ -380,9 +380,9 @@
             android:id="@+id/btnRegArt"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginTop="50dp"
             android:backgroundTint="@color/design_default_color_error"
             android:text="@string/button_AgregarVenta"
-            android:textSize="50sp"></Button>
+            android:textSize="24sp"></Button>
     </LinearLayout>
+
 </LinearLayout>
