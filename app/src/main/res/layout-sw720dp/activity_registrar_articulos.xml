@@ -146,7 +146,7 @@
                 android:layout_height="wrap_content"
                 android:backgroundTint="@color/clear_blue"
                 android:text="@string/registro_articulo"
-                android:textSize="34sp"></Button>
+                android:textSize="48sp"></Button>
         </LinearLayout>
     </LinearLayout>
 </LinearLayout>

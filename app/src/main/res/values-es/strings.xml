@@ -1,7 +1,7 @@
 <resources>
     <string name="app_name">CortinApp</string>
-    <string name="registro_ventas">RegistroVentas</string>
-    <string name="registro_vendedor">Seller record</string>
+    <string name="registro_ventas">Registro de Ventas</string>
+    <string name="registro_vendedor">Registrar Vendedor</string>
     <string name="username">Usuario</string>
     <string name="password">Contraseña</string>
     <string name="your_password">Tú Contraseña</string>
@@ -25,7 +25,7 @@
     <string name="text_CedulaVendedor">CedulaVendedor</string>
     <string name="hint_CedulaVendedor">Cedula</string>
     <string name="text_CorreoVendedor">Correo Electrónico</string>
-    <string name="hint_CorreoVendedor">email@correo.com</string>
+    <string name="hint_CorreoVendedor">email@dominio.com</string>
     <string name="text_ContVendedor">Contraseña</string>
     <string name="hint_ContVendedor">Contraseña</string>
 

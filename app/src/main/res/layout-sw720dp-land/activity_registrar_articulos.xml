@@ -10,18 +10,18 @@
     <ImageView
         android:id="@+id/imageView2"
         android:layout_width="match_parent"
-        android:layout_height="250dp"
+        android:layout_height="339dp"
         app:srcCompat="@drawable/cortina" />
 
     <TextView
         android:id="@+id/textView"
         android:layout_width="match_parent"
-        android:layout_height="33dp"
+        android:layout_height="wrap_content"
         android:layout_marginTop="10dp"
         android:gravity="center_horizontal"
         android:orientation="vertical"
         android:text="@string/registro_articulo"
-        android:textSize="20sp"
+        android:textSize="68sp"
         android:textStyle="bold" />
 
     <LinearLayout
@@ -48,7 +48,7 @@
                 android:layout_marginTop="15dp"
                 android:text="@string/text_CodigoArticulo"
                 android:textColor="#040404"
-                android:textSize="48sp"
+                android:textSize="65sp"
                 android:textStyle="bold" />
 
             <EditText
@@ -61,7 +61,7 @@
                 android:ems="10"
                 android:hint="@string/hint_CodigoArticulo"
                 android:inputType="textPersonName"
-                android:textSize="48sp" />
+                android:textSize="65sp" />
 
             <TextView
                 android:id="@+id/textView2"
@@ -71,7 +71,7 @@
                 android:layout_marginTop="50dp"
                 android:text="@string/text_Articulo"
                 android:textColor="#040404"
-                android:textSize="48sp"
+                android:textSize="65sp"
                 android:textStyle="bold" />
 
             <EditText
@@ -84,7 +84,7 @@
                 android:ems="10"
                 android:hint="@string/hint_Articulo"
                 android:inputType="textPersonName"
-                android:textSize="48sp" />
+                android:textSize="65sp" />
         </LinearLayout>
 
         <LinearLayout
@@ -102,7 +102,7 @@
                 android:layout_marginTop="15dp"
                 android:text="@string/text_ColorCortina"
                 android:textColor="#040404"
-                android:textSize="48sp"
+                android:textSize="65sp"
                 android:textStyle="bold" />
 
             <EditText
@@ -115,7 +115,7 @@
                 android:ems="10"
                 android:hint="@string/hint_ColorCortina"
                 android:inputType="textPersonName"
-                android:textSize="48sp" />
+                android:textSize="65sp" />
 
 
             <TextView
@@ -139,7 +139,7 @@
                 android:ems="10"
                 android:hint="@string/hint_Valorm2"
                 android:inputType="textPersonName"
-                android:textSize="48sp" />
+                android:textSize="65sp" />
         </LinearLayout>
     </LinearLayout>
         <LinearLayout
@@ -156,7 +156,7 @@
                 android:layout_height="wrap_content"
                 android:backgroundTint="@color/clear_blue"
                 android:text="@string/registro_articulo"
-                android:textSize="48sp"></Button>
+                android:textSize="70sp"></Button>
         </LinearLayout>
 
 </LinearLayout>

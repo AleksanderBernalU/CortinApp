@@ -10,18 +10,18 @@
     <ImageView
         android:id="@+id/imageView2"
         android:layout_width="match_parent"
-        android:layout_height="250dp"
+        android:layout_height="195dp"
         app:srcCompat="@drawable/cortina" />
 
     <TextView
-        android:id="@+id/textView"
+        android:id="@+id/textView7"
         android:layout_width="match_parent"
-        android:layout_height="33dp"
+        android:layout_height="wrap_content"
         android:layout_marginTop="10dp"
         android:gravity="center_horizontal"
         android:orientation="vertical"
         android:text="@string/registro_articulo"
-        android:textSize="20sp"
+        android:textSize="34sp"
         android:textStyle="bold" />
 
     <LinearLayout
@@ -29,8 +29,6 @@
         android:layout_height="wrap_content"
         android:layout_marginLeft="2dp"
         android:orientation="horizontal">
-
-
 
 
         <LinearLayout
@@ -48,7 +46,7 @@
                 android:layout_marginTop="15dp"
                 android:text="@string/text_CodigoArticulo"
                 android:textColor="#040404"
-                android:textSize="48sp"
+                android:textSize="24sp"
                 android:textStyle="bold" />
 
             <EditText
@@ -61,21 +59,21 @@
                 android:ems="10"
                 android:hint="@string/hint_CodigoArticulo"
                 android:inputType="textPersonName"
-                android:textSize="48sp" />
+                android:textSize="24sp" />
 
             <TextView
                 android:id="@+id/textView2"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="15dp"
-                android:layout_marginTop="50dp"
+                android:layout_marginTop="15dp"
                 android:text="@string/text_Articulo"
                 android:textColor="#040404"
-                android:textSize="48sp"
+                android:textSize="24sp"
                 android:textStyle="bold" />
 
             <EditText
-                android:id="@+id/edtCourtainId"
+                android:id="@+id/edtSellerId"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="15dp"
@@ -84,7 +82,7 @@
                 android:ems="10"
                 android:hint="@string/hint_Articulo"
                 android:inputType="textPersonName"
-                android:textSize="48sp" />
+                android:textSize="24sp" />
         </LinearLayout>
 
         <LinearLayout
@@ -102,7 +100,7 @@
                 android:layout_marginTop="15dp"
                 android:text="@string/text_ColorCortina"
                 android:textColor="#040404"
-                android:textSize="48sp"
+                android:textSize="24sp"
                 android:textStyle="bold" />
 
             <EditText
@@ -115,7 +113,7 @@
                 android:ems="10"
                 android:hint="@string/hint_ColorCortina"
                 android:inputType="textPersonName"
-                android:textSize="48sp" />
+                android:textSize="24sp" />
 
 
             <TextView
@@ -123,10 +121,10 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="15dp"
-                android:layout_marginTop="50dp"
+                android:layout_marginTop="15dp"
                 android:text="@string/text_Valorm2"
                 android:textColor="#040404"
-                android:textSize="48sp"
+                android:textSize="24sp"
                 android:textStyle="bold" />
 
             <EditText
@@ -139,24 +137,25 @@
                 android:ems="10"
                 android:hint="@string/hint_Valorm2"
                 android:inputType="textPersonName"
-                android:textSize="48sp" />
+                android:textSize="24sp" />
         </LinearLayout>
     </LinearLayout>
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:layout_marginLeft="2dp"
-            android:layout_weight="1"
-            android:gravity="center"
-            android:orientation="vertical">
 
-            <Button
-                android:id="@+id/btnRegVenta"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:backgroundTint="@color/clear_blue"
-                android:text="@string/registro_articulo"
-                android:textSize="48sp"></Button>
-        </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginLeft="2dp"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/btnRegArt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/clear_blue"
+            android:text="@string/registro_articulo"
+            android:textSize="34sp"></Button>
+    </LinearLayout>
 
 </LinearLayout>
