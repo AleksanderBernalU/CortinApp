@@ -7,6 +7,10 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import android.widget.TextView
+import androidx.room.*
+import com.example.cortinapp.room_database.AlmacenDatabase
+import kotlinx.coroutines.launch
+import kotlinx.coroutines.runBlocking
 
 // TODO: Rename parameter arguments, choose names that match
 // the fragment initialization parameters, e.g. ARG_ITEM_NUMBER
@@ -37,7 +41,7 @@ class fragment_detail : Fragment() {
         savedInstanceState: Bundle?
     ): View? {
         val fragmento =inflater.inflate(R.layout.fragment_detail, container, false)
-        var codigo = requireArguments().getString("Codigo")
+       /* var codigo = requireArguments().getString("Codigo")
         var fecha = requireArguments().getString("Fecha")
         var vendedor = requireArguments().getString("Vendedor")
         var cliente = requireArguments().getString("Cliente")
@@ -83,10 +87,62 @@ class fragment_detail : Fragment() {
         textViewArea.text = area
         textViewPrecio.text = precio
         textViewCuota.text = cuota
-        textViewSaldo.text = saldo
+        textViewSaldo.text = saldo */
         return fragmento
     }
 
+    override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
+        super.onViewCreated(view, savedInstanceState)
+
+        var textViewCodigo: TextView = view.findViewById(R.id.textViewCodigo)
+        var textViewFecha: TextView = view.findViewById(R.id.textViewFecha)
+        var textViewVendedor: TextView = view.findViewById(R.id.textViewVendedor)
+
+        var textViewCedula: TextView = view.findViewById(R.id.textViewCedula)
+        var textViewCliente: TextView = view.findViewById(R.id.textViewCliente)
+        var textViewDireccion: TextView = view.findViewById(R.id.textViewDireccion)
+        var textViewLatitud: TextView = view.findViewById(R.id.textViewLatitud)
+        var textViewLongitud: TextView = view.findViewById(R.id.textViewLongitud)
+
+        var textViewIdCortina: TextView = view.findViewById(R.id.textViewIdCortina)
+        var textViewAncho: TextView = view.findViewById(R.id.textViewAncho)
+        var textViewAlto: TextView = view.findViewById(R.id.textViewAlto)
+        var textViewArea: TextView = view.findViewById(R.id.textViewArea)
+
+        var textViewPrecio: TextView = view.findViewById(R.id.textViewPrecio)
+        var textViewCuota: TextView = view.findViewById(R.id.textViewCuota)
+        var textViewSaldo: TextView = view.findViewById(R.id.textViewSaldo)
+
+        var id = requireArguments().getInt("id")
+        val room: AlmacenDatabase = Room
+            .databaseBuilder(context?.applicationContext!!,
+            AlmacenDatabase::class.java, "AlmacenDatabase").build()
+        var ventaDao = room.ventaDao()
+        runBlocking {
+            launch {
+                var result = ventaDao.findById(id)
+                textViewCodigo.text = result.Id.toString()
+                textViewFecha.text = result.FechaVenta
+                textViewVendedor.text = result.CedulaVendedor
+
+                textViewCedula.text = result.CedulaCliente
+                textViewCliente.text = result.NombreCliente
+                textViewDireccion.text = result.Direccion
+                textViewLatitud.text = result.Latitud
+                textViewLongitud.text = result.Longitud
+
+                textViewIdCortina.text = result.TipoCortina
+                textViewAncho.text = result.Ancho
+                textViewAlto.text = result.Alto
+                textViewArea.text = result.AreaTotal
+
+                textViewPrecio.text = result.Precio
+                textViewCuota.text = result.CuotaSemanal
+                textViewSaldo.text = result.Saldo
+            }
+        }
+
+    }
     companion object {
         /**
          * Use this factory method to create a new instance of

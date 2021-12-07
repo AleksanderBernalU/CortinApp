@@ -39,15 +39,18 @@ class RegistroVentas : Fragment() {
         val TxvPrueba: TextView = view.findViewById(R.id.TxvPrueba)
         val edtDateSale: EditText = view.findViewById(R.id.edtDateSale)
         val edtSellerId: EditText = view.findViewById(R.id.edtSellerId)
+
         val edtClientId: EditText = view.findViewById(R.id.edtClientId)
         val edtCientName: EditText = view.findViewById(R.id.edtCientName)
         val edtClientAddress: EditText = view.findViewById(R.id.edtClientAddress)
         val edtLatitude: EditText = view.findViewById(R.id.edtLatitude)
         val edtLongitude: EditText = view.findViewById(R.id.edtLongitude)
+
         val edtCourtainId: EditText = view.findViewById(R.id.edtCourtainId)
         val edtWidth: EditText = view.findViewById(R.id.edtWidth)
         val edtHeight: EditText = view.findViewById(R.id.edtHeight)
         val edtTotalArea: EditText = view.findViewById(R.id.edtTotalArea)
+
         val edtPrice: EditText = view.findViewById(R.id.edtPrice)
         btnRegVenta.setOnClickListener{
 
