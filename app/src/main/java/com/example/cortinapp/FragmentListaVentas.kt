@@ -67,7 +67,8 @@ class FragmentListaVentas : Fragment() {
             //datos.add(Task(4, "13-01-2021","Cleo Sepa","Maria Medrano", "154122","Calle 6",15,30,4,60,60,120,850000,50000,800000 ))
             var taskAdapter = TaskAdapter(datos){
                 val datos = Bundle()
-                datos.putInt("Id", it.Id)
+                datos.putInt("id", it.Id)
+
 /*                datos.putString("Codigo", it.Id.toString())
                 datos.putString("Fecha",it.fechaVenta)
                 datos.putString("Vendedor",it.Vendedor)
@@ -84,6 +85,7 @@ class FragmentListaVentas : Fragment() {
                 datos.putString("Cuota", it.Cuota.toString())
                 datos.putString("Saldo", it.Saldo.toString())*/
 
+
                 Navigation.findNavController(view).navigate(R.id.nav_detail, datos)
             }
             recyclerVentaList.setHasFixedSize(true)
@@ -91,7 +93,9 @@ class FragmentListaVentas : Fragment() {
             recyclerVentaList.addItemDecoration(DividerItemDecoration(context, DividerItemDecoration.VERTICAL))
 
 
+
     }
+
 
     companion object {
         /**

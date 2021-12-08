@@ -143,7 +143,7 @@
                 android:layout_height="match_parent"
                 android:layout_alignParentRight="true"
                 android:layout_centerHorizontal="true"
-                android:layout_marginRight="330dp"
+                android:layout_marginRight="291dp"
                 android:backgroundTint="@color/design_default_color_error"
                 android:text="@string/Cancelar"
                 android:textSize="24sp"></Button>

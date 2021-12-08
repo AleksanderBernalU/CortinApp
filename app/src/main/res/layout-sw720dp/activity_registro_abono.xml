@@ -10,7 +10,7 @@
     <ImageView
         android:id="@+id/imageView"
         android:layout_width="match_parent"
-        android:layout_height="250dp"
+        android:layout_height="380dp"
         app:srcCompat="@drawable/cortina" />
 
     <TextView
@@ -20,7 +20,7 @@
         android:gravity="center_horizontal"
         android:orientation="vertical"
         android:text="Registrar Abono"
-        android:textSize="40dp"
+        android:textSize="60sp"
         android:textStyle="bold" />
 
     <LinearLayout
@@ -42,7 +42,7 @@
                 android:layout_marginTop="10dp"
                 android:paddingLeft="10dp"
                 android:text="@string/text_CodigoVenta"
-                android:textSize="34sp" />
+                android:textSize="60sp" />
 
             <EditText
                 android:id="@+id/edtVentaCode"
@@ -52,7 +52,7 @@
                 android:inputType="textPersonName"
                 android:paddingLeft="10dp"
                 android:text="@string/hint_CodigoVenta"
-                android:textSize="34sp" />
+                android:textSize="60sp" />
 
             <TextView
                 android:id="@+id/textView3"
@@ -61,7 +61,7 @@
                 android:layout_marginTop="10dp"
                 android:paddingLeft="10dp"
                 android:text="@string/text_Cliente"
-                android:textSize="34sp" />
+                android:textSize="60sp" />
 
             <EditText
                 android:id="@+id/edtDateSale"
@@ -70,7 +70,7 @@
                 android:ems="10"
                 android:inputType="textPersonName"
                 android:paddingLeft="10dp"
-                android:textSize="34sp" />
+                android:textSize="60sp" />
 
         </LinearLayout>
 
@@ -87,7 +87,7 @@
                 android:layout_marginTop="10dp"
                 android:paddingLeft="10dp"
                 android:text="@string/saldo_actual"
-                android:textSize="34sp" />
+                android:textSize="60sp" />
 
             <EditText
                 android:id="@+id/editTextSaldo"
@@ -96,7 +96,7 @@
                 android:ems="10"
                 android:inputType="textPersonName|textEmailAddress"
                 android:paddingLeft="10dp"
-                android:textSize="34sp" />
+                android:textSize="60sp" />
 
             <TextView
                 android:id="@+id/textView5"
@@ -105,7 +105,7 @@
                 android:layout_marginTop="10dp"
                 android:paddingLeft="10dp"
                 android:text="@string/fecha_abono"
-                android:textSize="34sp" />
+                android:textSize="60sp" />
 
             <EditText
                 android:id="@+id/editTextFechaAbono"
@@ -114,7 +114,7 @@
                 android:ems="10"
                 android:inputType="textPersonName|textEmailAddress"
                 android:paddingLeft="10dp"
-                android:textSize="34sp" />
+                android:textSize="60sp" />
 
             <TextView
                 android:id="@+id/textView6"
@@ -123,7 +123,7 @@
                 android:layout_marginTop="10dp"
                 android:paddingLeft="10dp"
                 android:text="@string/valor_abono"
-                android:textSize="34sp" />
+                android:textSize="60sp" />
 
             <EditText
                 android:id="@+id/editTextValorAbono"
@@ -132,38 +132,39 @@
                 android:ems="10"
                 android:inputType="textPersonName|textEmailAddress"
                 android:paddingLeft="10dp"
-                android:textSize="34sp" />
+                android:textSize="60sp" />
         </LinearLayout>
 
 
     </LinearLayout>
 
-    <RelativeLayout
+    <LinearLayout
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
+        android:layout_gravity="center"
         android:layout_weight="1"
+        android:gravity="center"
         android:orientation="horizontal">
 
         <Button
-            android:id="@+id/Button01"
-            android:layout_width="300dp"
+            android:id="@+id/button"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_alignParentRight="true"
-            android:layout_centerHorizontal="true"
-            android:layout_marginRight="90dp"
-            android:backgroundTint="@color/clear_blue"
-            android:text="@string/Guardar"
-            android:textSize="48sp"></Button>
-
-        <Button
-            android:id="@+id/Button02"
-            android:layout_width="300dp"
-            android:layout_height="wrap_content"
-            android:layout_alignParentRight="true"
-            android:layout_centerHorizontal="true"
-            android:layout_marginRight="401dp"
+            android:layout_marginEnd="223dp"
             android:backgroundTint="@color/design_default_color_error"
             android:text="@string/Cancelar"
-            android:textSize="48sp"></Button>
-    </RelativeLayout>
+            android:textSize="60sp"
+            style="?android:attr/buttonBarButtonStyle"></Button>
+
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="61dp"
+            android:backgroundTint="@color/clear_blue"
+            android:text="@string/Guardar"
+            android:textColor="#616161"
+            android:textSize="60sp"
+            style="?android:attr/buttonBarButtonStyle"></Button>
+    </LinearLayout>
 </LinearLayout>
