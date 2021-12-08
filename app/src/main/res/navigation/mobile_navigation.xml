@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/mobile_navigation"
     app:startDestination="@id/registrarVendedor">
-
+//Ajustes
     <fragment
         android:id="@+id/registrarArticulos"
         android:name="com.example.cortinapp.RegistrarArticulos"

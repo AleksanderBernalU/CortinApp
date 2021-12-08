@@ -53,9 +53,9 @@ class RegistroVentas : Fragment() {
 
         val edtPrice: EditText = view.findViewById(R.id.edtPrice)
         btnRegVenta.setOnClickListener{
-
+//Ajuste del registro de ventas
             val precio = edtPrice.text.toString()
-            val ValorCuota: Float? = precio.toFloat() / 6
+            val ValorCuota: Float? = precio.toFloat() / 24
             val ValorSaldo: Float? = precio.toFloat()
 
             val room : AlmacenDatabase = Room.databaseBuilder(context?.applicationContext!!,AlmacenDatabase::class.java,"AlmacenDatabase").build()

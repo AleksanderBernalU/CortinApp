@@ -112,15 +112,15 @@ class fragment_detail : Fragment() {
         var textViewPrecio: TextView = view.findViewById(R.id.textViewPrecio)
         var textViewCuota: TextView = view.findViewById(R.id.textViewCuota)
         var textViewSaldo: TextView = view.findViewById(R.id.textViewSaldo)
-
-        var id = requireArguments().getInt("id")
+//Ajuste fragmento
+        var Id = requireArguments().getInt("Id")
         val room: AlmacenDatabase = Room
             .databaseBuilder(context?.applicationContext!!,
             AlmacenDatabase::class.java, "AlmacenDatabase").build()
         var ventaDao = room.ventaDao()
         runBlocking {
             launch {
-                var result = ventaDao.findById(id)
+                var result = ventaDao.findById(Id)
                 textViewCodigo.text = result.Id.toString()
                 textViewFecha.text = result.FechaVenta
                 textViewVendedor.text = result.CedulaVendedor
