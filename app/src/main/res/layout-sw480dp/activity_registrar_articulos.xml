@@ -10,7 +10,7 @@
     <ImageView
         android:id="@+id/imageView2"
         android:layout_width="match_parent"
-        android:layout_height="350dp"
+        android:layout_height="wrap_content"
         app:srcCompat="@drawable/cortina" />
 
     <LinearLayout
@@ -23,19 +23,18 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:layout_marginLeft="2dp"
-            android:layout_marginTop="40dp"
             android:layout_weight="0.3"
             android:orientation="vertical">
 
             <TextView
                 android:id="@+id/textView"
                 android:layout_width="match_parent"
-                android:layout_height="71dp"
-                android:layout_marginTop="50dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="25dp"
                 android:gravity="center_horizontal"
                 android:orientation="vertical"
                 android:text="@string/registro_articulo"
-                android:textSize="60sp"
+                android:textSize="48sp"
                 android:textStyle="bold" />
 
             <TextView
@@ -43,10 +42,10 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="15dp"
-                android:layout_marginTop="60dp"
+                android:layout_marginTop="15dp"
                 android:text="@string/text_CodigoArticulo"
                 android:textColor="#040404"
-                android:textSize="48sp"
+                android:textSize="24sp"
                 android:textStyle="bold" />
 
             <EditText
@@ -59,17 +58,17 @@
                 android:ems="10"
                 android:hint="@string/hint_CodigoArticulo"
                 android:inputType="textPersonName"
-                android:textSize="48sp" />
+                android:textSize="24sp" />
 
             <TextView
                 android:id="@+id/textView2"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="15dp"
-                android:layout_marginTop="60dp"
+                android:layout_marginTop="15dp"
                 android:text="@string/text_Articulo"
                 android:textColor="#040404"
-                android:textSize="48sp"
+                android:textSize="24sp"
                 android:textStyle="bold" />
 
             <EditText
@@ -82,17 +81,17 @@
                 android:ems="10"
                 android:hint="@string/hint_Articulo"
                 android:inputType="textPersonName"
-                android:textSize="48sp" />
+                android:textSize="24sp" />
 
             <TextView
                 android:id="@+id/textView10"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="15dp"
-                android:layout_marginTop="60dp"
+                android:layout_marginTop="15dp"
                 android:text="@string/text_ColorCortina"
                 android:textColor="#040404"
-                android:textSize="48sp"
+                android:textSize="24sp"
                 android:textStyle="bold" />
 
             <EditText
@@ -105,7 +104,7 @@
                 android:ems="10"
                 android:hint="@string/hint_ColorCortina"
                 android:inputType="textPersonName"
-                android:textSize="48sp" />
+                android:textSize="24sp" />
 
 
             <TextView
@@ -113,10 +112,10 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="15dp"
-                android:layout_marginTop="60dp"
+                android:layout_marginTop="15dp"
                 android:text="@string/text_Valorm2"
                 android:textColor="#040404"
-                android:textSize="48sp"
+                android:textSize="24sp"
                 android:textStyle="bold" />
 
             <EditText
@@ -129,7 +128,7 @@
                 android:ems="10"
                 android:hint="@string/hint_Valorm2"
                 android:inputType="textPersonName"
-                android:textSize="48sp" />
+                android:textSize="24sp" />
         </LinearLayout>
 
         <LinearLayout
@@ -149,4 +148,5 @@
                 android:textSize="34sp"></Button>
         </LinearLayout>
     </LinearLayout>
+
 </LinearLayout>

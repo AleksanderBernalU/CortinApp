@@ -4,6 +4,7 @@ import androidx.room.*
 
 @Dao
 interface VentaDAO {
+
     @Query("SELECT * FROM Venta")
     suspend fun getAllSales(): List<Venta>
 

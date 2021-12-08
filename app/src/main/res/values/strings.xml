@@ -1,7 +1,7 @@
 <resources>
     <string name="app_name">CortinApp</string>
     <string name="registro_ventas">Sales Record</string>
-    <string name="registro_vendedor">Seller record</string>
+    <string name="registro_vendedor">Register Seller</string>
     <string name="username">Username</string>
     <string name="password">Password</string>
     <string name="your_password">Your Password</string>

@@ -1,5 +1,6 @@
 package com.example.cortinapp
 
+
 data class Task (val Id: Int,
                  val fechaVenta: String,
                  val Vendedor: String,
