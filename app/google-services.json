@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "17852033846",
+    "project_id": "cortinapp-90707",
+    "storage_bucket": "cortinapp-90707.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:17852033846:android:63b5b432b3ba1a36b6e197",
+        "android_client_info": {
+          "package_name": "com.example.cortinapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "17852033846-lp2k1s13fpeostr4kln5pblecs6nmloh.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCWwFxOi_ahdB_vS1W_KPl9A2pByXSBiM8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "17852033846-lp2k1s13fpeostr4kln5pblecs6nmloh.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
