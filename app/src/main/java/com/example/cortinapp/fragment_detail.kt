@@ -95,7 +95,7 @@ class fragment_detail : Fragment() {
 
     override fun onViewCreated(view:  View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
-        var textViewCodigoDetalle: TextView = view.findViewById(R.id.textViewCodigoDetalle)
+        var textViewCodigoDetalle: TextView = view.findViewById(R.id.textViewCodigo)
         var textViewFecha: TextView = view.findViewById(R.id.textViewFecha)
         var textViewVendedor: TextView = view.findViewById(R.id.textViewVendedor)
         var textViewCliente: TextView = view.findViewById(R.id.textViewCliente)

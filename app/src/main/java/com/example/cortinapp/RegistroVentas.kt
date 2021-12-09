@@ -36,7 +36,7 @@ class RegistroVentas : Fragment() {
         super.onViewCreated(view, savedInstanceState)
 
         val btnRegVenta: Button = view.findViewById(R.id.btnRegVenta)
-        val TxvPrueba: TextView = view.findViewById(R.id.TxvPrueba)
+       // val TxvPrueba: TextView = view.findViewById(R.id.TxvPrueba)
         val edtDateSale: EditText = view.findViewById(R.id.edtDateSale)
         val edtSellerId: EditText = view.findViewById(R.id.edtSellerId)
         val edtClientId: EditText = view.findViewById(R.id.edtClientId)
