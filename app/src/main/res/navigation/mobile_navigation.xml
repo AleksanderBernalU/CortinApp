@@ -20,7 +20,7 @@
     <fragment
         android:id="@+id/registroVentas"
         android:name="com.example.cortinapp.RegistroVentas"
-        android:label="RegistroVentas" >
+        android:label="RegistroVentas">
         <action
             android:id="@+id/action_registroVentas_to_nav_listaVentas"
             app:destination="@id/nav_listaVentas" />

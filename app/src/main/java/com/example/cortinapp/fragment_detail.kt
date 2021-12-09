@@ -116,27 +116,28 @@ class fragment_detail : Fragment() {
             AlmacenDatabase::class.java, "AlmacenDatabase").build()
         var ventaDao = room.ventaDao()
         runBlocking {
-             launch{
-                var result = ventaDao.findById(id)
-                textViewCodigoDetalle.text = result.Id.toString()
-                textViewFecha.text = result.FechaVenta
-                textViewVendedor.text = result.CedulaVendedor
-                textViewCedula.text = result.CedulaCliente
-                textViewCliente.text = result.NombreCliente
-                textViewDireccion.text = result.Direccion
-                textViewLatitud.text = result.Latitud
-                textViewLongitud.text = result.Longitud
-                textViewIdCortina.text = result.TipoCortina
-                textViewAncho.text = result.Ancho
-                textViewAlto.text = result.Alto
-                textViewArea.text = result.AreaTotal
-                textViewPrecio.text = result.Precio
-                textViewCuota.text = result.CuotaSemanal
-                textViewSaldo.text = result.Saldo
+            launch {
+                            var result = ventaDao.findById(Id)
+                            textViewCodigo.text = result.Id.toString()
+                            textViewFecha.text = result.FechaVenta
+                            textViewVendedor.text = result.CedulaVendedor
 
-            }
+                            textViewCedula.text = result.CedulaCliente
+                            textViewCliente.text = result.NombreCliente
+                            textViewDireccion.text = result.Direccion
+                            textViewLatitud.text = result.Latitud
+                            textViewLongitud.text = result.Longitud
 
-        }
+                            textViewIdCortina.text = result.TipoCortina
+                            textViewAncho.text = result.Ancho
+                            textViewAlto.text = result.Alto
+                            textViewArea.text = result.AreaTotal
+
+                            textViewPrecio.text = result.Precio
+                            textViewCuota.text = result.CuotaSemanal
+                            textViewSaldo.text = result.Saldo
+                          }
+                      }
 
     }
 
