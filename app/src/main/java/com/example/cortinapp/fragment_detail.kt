@@ -120,27 +120,27 @@ class fragment_detail : Fragment() {
         var ventaDao = room.ventaDao()
         runBlocking {
             launch {
-                var result = ventaDao.findById(Id)
-                textViewCodigo.text = result.Id.toString()
-                textViewFecha.text = result.FechaVenta
-                textViewVendedor.text = result.CedulaVendedor
+                            var result = ventaDao.findById(Id)
+                            textViewCodigo.text = result.Id.toString()
+                            textViewFecha.text = result.FechaVenta
+                            textViewVendedor.text = result.CedulaVendedor
 
-                textViewCedula.text = result.CedulaCliente
-                textViewCliente.text = result.NombreCliente
-                textViewDireccion.text = result.Direccion
-                textViewLatitud.text = result.Latitud
-                textViewLongitud.text = result.Longitud
+                            textViewCedula.text = result.CedulaCliente
+                            textViewCliente.text = result.NombreCliente
+                            textViewDireccion.text = result.Direccion
+                            textViewLatitud.text = result.Latitud
+                            textViewLongitud.text = result.Longitud
 
-                textViewIdCortina.text = result.TipoCortina
-                textViewAncho.text = result.Ancho
-                textViewAlto.text = result.Alto
-                textViewArea.text = result.AreaTotal
+                            textViewIdCortina.text = result.TipoCortina
+                            textViewAncho.text = result.Ancho
+                            textViewAlto.text = result.Alto
+                            textViewArea.text = result.AreaTotal
 
-                textViewPrecio.text = result.Precio
-                textViewCuota.text = result.CuotaSemanal
-                textViewSaldo.text = result.Saldo
-            }
-        }
+                            textViewPrecio.text = result.Precio
+                            textViewCuota.text = result.CuotaSemanal
+                            textViewSaldo.text = result.Saldo
+                          }
+                      }
 
     }
     companion object {
