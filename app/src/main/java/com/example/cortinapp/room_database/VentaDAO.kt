@@ -8,8 +8,8 @@ interface VentaDAO {
     @Query("SELECT * FROM Venta")
     suspend fun getAllSales(): List<Venta>
 
-    @Query("SELECT * FROM Venta WHERE Id= :id")
-    suspend fun findById(id: Int): Venta
+    @Query("SELECT * FROM Venta WHERE Id= :Id")
+    suspend fun findById(Id: Int): Venta
 
     @Insert(onConflict = OnConflictStrategy.IGNORE)
     suspend fun insertSale(vender: Venta): Long

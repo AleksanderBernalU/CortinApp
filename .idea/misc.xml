@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/alekk/AndroidStudioProjects/CortinApp/app/src/main/res/layout-land/activity_registro_ventas.xml" value="0.12291666666666666" />
+        <entry key="..\:/Users/alekk/AndroidStudioProjects/CortinApp/app/src/main/res/layout-sw480dp/fragment_venta.xml" value="0.1" />
+        <entry key="..\:/Users/alekk/AndroidStudioProjects/CortinApp/app/src/main/res/layout-sw480dp/fragment_ventas.xml" value="0.1" />
+        <entry key="..\:/Users/alekk/AndroidStudioProjects/CortinApp/app/src/main/res/layout/activity_registro_ventas.xml" value="0.13333333333333333" />
+        <entry key="..\:/Users/alekk/AndroidStudioProjects/CortinApp/app/src/main/res/layout/fragment_detail.xml" value="0.22447916666666667" />
+        <entry key="..\:/Users/alekk/AndroidStudioProjects/CortinApp/app/src/main/res/layout/fragment_lista_ventas.xml" value="0.21851851851851853" />
+        <entry key="..\:/Users/alekk/AndroidStudioProjects/CortinApp/app/src/main/res/layout/fragment_venta.xml" value="0.10989583333333333" />
+      </map>
+    </option>
+  </component>
+  <component name="ExternalStorageConfigurationManager" enabled="true" />
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="11" project-jdk-type="JavaSDK" />
+</project>

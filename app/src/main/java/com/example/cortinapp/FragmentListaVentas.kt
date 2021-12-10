@@ -67,7 +67,7 @@ class FragmentListaVentas : Fragment() {
             //datos.add(Task(4, "13-01-2021","Cleo Sepa","Maria Medrano", "154122","Calle 6",15,30,4,60,60,120,850000,50000,800000 ))
             var taskAdapter = TaskAdapter(datos){
                 val datos = Bundle()
-                datos.putInt("id", it.Id)
+                datos.putInt("Id", it.Id)
 
 /*                datos.putString("Codigo", it.Id.toString())
                 datos.putString("Fecha",it.fechaVenta)

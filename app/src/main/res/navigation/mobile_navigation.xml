@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/mobile_navigation"
     app:startDestination="@id/registrarVendedor">
-
+//Ajustes
     <fragment
         android:id="@+id/registrarArticulos"
         android:name="com.example.cortinapp.RegistrarArticulos"
@@ -20,7 +20,7 @@
     <fragment
         android:id="@+id/registroVentas"
         android:name="com.example.cortinapp.RegistroVentas"
-        android:label="RegistroVentas" >
+        android:label="RegistroVentas">
         <action
             android:id="@+id/action_registroVentas_to_nav_listaVentas"
             app:destination="@id/nav_listaVentas" />
@@ -30,9 +30,8 @@
         android:name="com.example.cortinapp.FragmentListaVentas"
         android:label="fragment_lista_ventas"
         tools:layout="@layout/fragment_lista_ventas" >
-
         <action
-            android:id="@+id/action_nav_listaVentas_to_nav_detail"
+            android:id="@+id/action_nav_listaVentas_to_nav_detail2"
             app:destination="@id/nav_detail" />
     </fragment>
     <fragment
