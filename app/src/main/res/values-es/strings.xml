@@ -7,6 +7,7 @@
     <string name="your_password">Tú Contraseña</string>
     <string name="login">Iniciar Sesión</string>
     <string name="logo">CortinApp Logo</string>
+    <string name="email">Correo Electronico</string>
     <!-- Cliente -->
     <string name="text_Cliente">Nombre Cliente</string>
     <string name="hint_Cliente">Nombre Cliente</string>

@@ -17,4 +17,5 @@
     <color name="text">#000</color>
     <color name="edt_text">#000</color>
     <color name="edt_background">#fff</color>
+    <color name="border_recyclerview">#F9EAD9</color>
 </resources>  

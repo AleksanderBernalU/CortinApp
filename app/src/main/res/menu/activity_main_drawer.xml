@@ -21,11 +21,12 @@
                 -->
         <item
             android:id="@+id/registrarVendedor"
-            android:icon="@drawable/ic_menu_slideshow"
-            android:title="@string/menu_registrovendedor" />
+            android:icon="@drawable/vendedor_navegador"
+            android:title="@string/menu_registrovendedor"
+            />
         <item
             android:id="@+id/registrarArticulos"
-            android:icon="@drawable/ic_menu_slideshow"
+            android:icon="@drawable/articulo_navigation"
             android:title="@string/menu_registroarticulo" />
         <item
             android:id="@+id/registroVentas"
@@ -33,11 +34,11 @@
             android:title= "@string/menu_registroventa" />
         <item
             android:id="@+id/registroAbono"
-            android:icon="@drawable/ic_menu_slideshow"
+            android:icon="@drawable/abono_navigation"
             android:title="@string/menu_registroabono" />
         <item
             android:id="@+id/nav_listaVentas"
-            android:icon="@drawable/ic_menu_slideshow"
+            android:icon="@drawable/list_navegation"
             android:title="@string/menu_listaVentas" />
     </group>
 </menu>
